@@ -67,3 +67,7 @@ venv/
 .DS_Store
 Thumbs.db
 *.log
+
+# Imagens do anuncio no Nexus: derivadas da capa da Ice-Pick Lodge
+nexus/imagem-principal.jpg
+nexus/captura-instalador.png

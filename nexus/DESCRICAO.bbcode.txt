@@ -1,0 +1,80 @@
+[size=5][b]Pathologic 3 em português brasileiro[/b][/size]
+
+Tradução completa do jogo. São [b]63.703 falas[/b]: cada diálogo, cada anotação, cada tela de menu. Nada ficou em inglês.
+
+[line]
+
+[size=4][b]Como instalar[/b][/size]
+
+Baixe o arquivo, descompacte em qualquer pasta e dê dois cliques em [b]Instalar-Traducao-PTBR.exe[/b].
+
+Não precisa instalar Python nem nenhuma outra coisa. O programa encontra o jogo sozinho, guarda uma cópia de segurança antes de mexer em qualquer coisa, e tem um botão para desfazer.
+
+A instalação leva alguns minutos porque reescreve um arquivo grande do jogo. A barra fica bastante tempo na última etapa. É normal, não travou.
+
+[b]Para desinstalar:[/b] abra o programa de novo e clique em "Restaurar o original".
+
+[line]
+
+[size=4][b]Sim, foi feita com inteligência artificial[/b][/size]
+
+E é justamente por isso que vale explicar como.
+
+Tradução automática é jogar o texto num tradutor e colar o resultado. Não foi isso. A IA aqui foi ferramenta de trabalho, dentro de um processo montado antes de a primeira linha ser traduzida.
+
+[b]Primeiro veio a pesquisa.[/b] Antes de traduzir, foi preciso entender o jogo: quem é cada personagem, como cada um fala, o que os nomes querem dizer no original. Muita coisa em Pathologic tem sentido escondido. Um apelido pode ser o nome de um pássaro, uma peça de roupa, um objeto do dia a dia. Sem saber disso, a tradução vira som sem significado.
+
+[b]Depois veio o glossário.[/b] São 105 termos fixados: nomes de personagens, de lugares, de facções, de doenças. Cada um com uma decisão registrada e o motivo dela. Esse glossário virou lei do projeto, e existe uma verificação automática que roda a cada versão e recusa o resultado se algum termo tiver escapado.
+
+[b]A base é o russo.[/b] O jogo foi escrito em russo, e é de lá que esta tradução sai. Toda tradução faz escolhas próprias, e partir da versão em inglês seria herdar as escolhas dela em vez de decidir as nossas. Indo direto ao original, cada decisão daqui responde ao texto que os autores escreveram.
+
+[b]Por fim, muita revisão.[/b] Várias passagens de leitura procurando o que soasse traduzido em vez de escrito: fala fora de lugar, nome que muda de uma cena para outra, piada que morreu no caminho, personagem trocado. Cada problema encontrado virou correção e, quando fazia sentido, virou regra nova no glossário para não acontecer de novo.
+
+O objetivo não era traduzir palavra por palavra. Era localizar, ou seja, fazer o texto soar como se tivesse sido escrito em português desde o começo.
+
+[line]
+
+[size=4][b]O que guiou as escolhas[/b][/size]
+
+[list]
+[*][b]Nome não fica em inglês.[/b] Apelido de personagem é traduzido para algo que soe natural aqui. Se no original o apelido de alguém é um pássaro, aqui também é.
+[*][b]"O senhor" e "você" não são chute.[/b] O russo separa tratamento formal de informal, e o jogo usa isso o tempo todo. Cada fala segue o que o original faz, então o médico trata a autoridade de um jeito e a criança de rua de outro.
+[*][b]Português do Brasil de verdade.[/b] Nada de construção que ninguém usa aqui. Palavrão é palavrão, gíria é gíria. Onde o texto é solene de propósito, como uma reza ou uma carta formal, o tom elevado é mantido.
+[*][b]Consistência acima de tudo.[/b] O mesmo lugar tem o mesmo nome do começo ao fim. Se um personagem é apresentado de um jeito no primeiro dia, continua assim no último.
+[/list]
+
+[line]
+
+[size=4][b]Coisas que vale saber[/b][/size]
+
+[b]Este mod não substitui arquivos do jogo por outros prontos.[/b] Ele altera a sua própria instalação e guarda backup. Por isso o download é pequeno, e por isso dá para desfazer sem baixar nada de novo.
+
+[b]O Windows pode mostrar o aviso azul do SmartScreen[/b] na primeira execução, porque o programa não tem assinatura digital. Clique em "Mais informações" e depois em "Executar assim mesmo".
+
+[b]Se o antivírus reclamar[/b], é falso positivo. Programas feitos assim são confundidos com frequência. O pacote traz uma pasta [i]modo-manual[/i] com um script de linha de comando que faz exatamente a mesma coisa, caso você prefira.
+
+[b]Uma atualização do jogo desfaz a tradução.[/b] É só rodar o instalador de novo. Se o jogo mudar os textos, o programa avisa que nada foi trocado em vez de corromper a instalação.
+
+[line]
+
+[size=4][b]Encontrou algum problema?[/b][/size]
+
+O que mais ajuda não é erro de português. É o que aparece na tela:
+
+[list]
+[*]texto saindo da caixa de diálogo
+[*]botão com palavra que não cabe
+[*]fala que parece deslocada na conversa
+[*]nome de personagem ou lugar que muda de uma cena para outra
+[/list]
+
+Anote o dia do jogo, o personagem e a cena, e comente aqui. Com isso dá para achar a linha exata e corrigir.
+
+[line]
+
+[size=4][b]Créditos[/b][/size]
+
+Tradução e localização: [b]Igor[/b]
+Jogo: [b]Ice-Pick Lodge[/b] e [b]Hypetrain Digital[/b]
+
+Tradução feita por fã, sem fins lucrativos e sem vínculo com os desenvolvedores ou a distribuidora.
