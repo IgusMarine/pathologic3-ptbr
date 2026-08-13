@@ -1,0 +1,115 @@
+PATHOLOGIC 3 EM PORTUGUÊS BRASILEIRO
+====================================
+
+Tradução completa do jogo, feita por fã.
+São 63.703 falas: cada diálogo, cada anotação, cada tela de menu.
+
+
+COMO INSTALAR
+-------------
+1. Feche o jogo, se estiver aberto.
+2. Entre na pasta "Instalar-Traducao-PTBR" e dê dois cliques em
+   Instalar-Traducao-PTBR.exe
+3. Confira se a pasta do jogo que apareceu está certa. Se o programa não
+   achou sozinho, clique em "Procurar" e aponte a pasta que contém
+   Pathologic3_Data.
+4. Clique em "Instalar tradução" e espere.
+
+A pasta precisa ficar inteira, do jeito que veio no .zip. Você pode movê-la
+para onde quiser, mas não tire arquivos de dentro dela.
+
+A instalação leva alguns minutos porque reescreve um arquivo grande do
+jogo. A barra fica bastante tempo na última etapa. É normal, não travou.
+
+Antes de mexer em qualquer coisa, o programa guarda uma cópia de
+segurança.
+
+
+PARA DESINSTALAR
+----------------
+Abra o programa de novo e clique em "Restaurar o original".
+
+Se a cópia de segurança tiver se perdido, o Steam resolve:
+   Biblioteca > clique direito no jogo > Propriedades >
+   Arquivos Instalados > Verificar integridade dos arquivos
+
+
+COMO ESTA TRADUÇÃO FOI FEITA
+----------------------------
+Foi feita com ajuda de inteligência artificial, e vale explicar como,
+porque não é tradução automática.
+
+Tradução automática é jogar o texto num tradutor e colar o resultado.
+Aqui a IA foi ferramenta de trabalho, dentro de um processo montado antes
+de a primeira linha ser traduzida.
+
+Primeiro veio a pesquisa: entender quem é cada personagem, como cada um
+fala, e o que os nomes querem dizer no original. Muita coisa em Pathologic
+tem sentido escondido, e sem saber disso a tradução vira som sem
+significado.
+
+Depois veio o glossário, com 105 termos fixados: nomes de personagens, de
+lugares, de facções, de doenças. Cada um com uma decisão registrada e o
+motivo dela. Existe uma verificação automática que recusa o resultado se
+algum termo tiver escapado.
+
+A base é o russo. O jogo foi escrito em russo, e é de lá que esta
+tradução sai. Toda tradução faz escolhas próprias, e partir da versão em
+inglês seria herdar as escolhas dela em vez de decidir as nossas. Indo
+direto ao original, cada decisão daqui responde ao texto que os autores
+escreveram.
+
+Por fim, muita revisão, procurando o que soasse traduzido em vez de
+escrito: fala fora de lugar, nome que muda de uma cena para outra, piada
+que morreu no caminho.
+
+O objetivo não era traduzir palavra por palavra. Era fazer o texto soar
+como se tivesse sido escrito em português desde o começo.
+
+
+SE O ANTIVÍRUS RECLAMAR
+-----------------------
+Pode acontecer. O programa não tem assinatura digital paga, e alguns
+antivírus desconfiam de qualquer executável sem assinatura, mesmo sem nada
+de errado. É falso positivo.
+
+Se preferir não liberar, use o método manual, na pasta "modo-manual":
+
+   1. Instale o Python 3:  https://www.python.org/downloads/
+      (marque "Add Python to PATH" durante a instalação)
+   2. Abra o Prompt de Comando e rode:  pip install UnityPy
+   3. Entre na pasta "modo-manual" e rode:
+         python aplicar_traducao.py
+      Para desfazer:
+         python aplicar_traducao.py --restaurar
+
+
+AVISOS
+------
+- Uma atualização do jogo sobrescreve a tradução. É só rodar de novo.
+- Se o jogo atualizar e mudar os textos, o programa avisa que nenhum texto
+  foi trocado e não altera nada.
+- Jogue com backup do save, por precaução.
+
+
+ENCONTROU ALGUM PROBLEMA?
+-------------------------
+O que mais ajuda não é erro de português. É o que aparece na tela:
+
+- texto saindo da caixa de diálogo
+- botão com palavra que não cabe
+- fala que parece deslocada na conversa
+- nome de personagem ou lugar que muda de uma cena para outra
+
+Anote o dia do jogo, o personagem e a cena. Com isso dá para achar a linha
+exata.
+
+
+CRÉDITOS
+--------
+Tradução e localização: Igor
+Jogo: Ice-Pick Lodge e Hypetrain Digital
+
+Tradução feita por fã, sem fins lucrativos e sem vínculo com os
+desenvolvedores ou a distribuidora. Distribua apenas o pacote de tradução,
+nunca os arquivos do jogo.

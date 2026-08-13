@@ -1,94 +1,82 @@
 # -*- coding: utf-8 -*-
 """Gera o banner do topo da pagina no Nexus (1300x372).
 
-A capa do jogo e' retrato 2:3 e o banner e' 3,5:1, entao nao da' para
-esticar nem cortar: vira composicao horizontal, com a capa inteira a
-esquerda e o texto ao lado.
+DUAS COISAS APRENDIDAS VENDO A PAGINA PUBLICADA:
 
-Desenha em dobro e reduz no fim, para o texto sair liso.
+1. O container do Nexus e' mais alto que a proporcao 3,5:1 que eles
+   recomendam, entao sobra uma faixa preta acima da imagem. A solucao nao e'
+   mudar o tamanho (o campo pede 1300x372): e' fazer o TOPO da imagem escurecer
+   ate' o preto, para a faixa se fundir com ela e sumir.
+
+2. O Nexus sobrepoe o nome do mod e o caminho de navegacao sobre a parte de
+   baixo do banner. Colocar titulo proprio ali duplica a informacao e embola a
+   leitura. Entao aqui nao vai texto nenhum: o banner e' so' atmosfera, e o
+   texto e' o da plataforma.
 
 Uso: python gerar_banner.py
 """
 import os, sys
 sys.stdout.reconfigure(encoding="utf-8")
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from PIL import Image, ImageDraw, ImageFilter
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 CAPA = os.path.join(os.path.dirname(AQUI), "installer", "capa_original.png")
 L, A = 1300, 372
-E = 2                      # desenha em 2x
+E = 2
 LL, AA = L * E, A * E
-
-
-def fonte(nomes, tam):
-    for n in nomes:
-        try:
-            return ImageFont.truetype(n, tam)
-        except OSError:
-            continue
-    return ImageFont.load_default()
-
 
 capa = Image.open(CAPA).convert("RGB")
 
-# ---- fundo: a propria capa desfocada, cobrindo a faixa ---------------------
-f = max(LL / capa.width, AA / capa.height)
-fundo = capa.resize((round(capa.width * f), round(capa.height * f)), Image.LANCZOS)
-x = (fundo.width - LL) // 2
-y = int(fundo.height * 0.30)
-fundo = fundo.crop((x, y, x + LL, y + AA)).filter(ImageFilter.GaussianBlur(40 * E))
-fundo = Image.blend(fundo, Image.new("RGB", (LL, AA), (18, 10, 11)), 0.58)
-
-# escurece a direita, onde vai o texto
-grad = Image.new("L", (LL, AA), 0)
-g = ImageDraw.Draw(grad)
-ini = int(LL * 0.22)
-for i in range(ini, LL):
-    g.line([(i, 0), (i, AA)], fill=int(150 * (i - ini) / (LL - ini)))
-fundo = Image.composite(Image.new("RGB", (LL, AA), (14, 8, 9)), fundo, grad)
+# ---- fundo: a capa ampliada e desfocada, cobrindo a faixa ------------------
+f = max(LL / capa.width, AA / capa.height) * 1.9
+g = capa.resize((round(capa.width * f), round(capa.height * f)), Image.LANCZOS)
+# enquadra no rosto e no relogio, que e' a parte com textura
+cx, cy = int(g.width * 0.5), int(g.height * 0.42)
+fundo = g.crop((cx - LL // 2, cy - AA // 2, cx + LL // 2, cy + AA // 2))
+fundo = fundo.filter(ImageFilter.GaussianBlur(30 * E))
+fundo = Image.blend(fundo, Image.new("RGB", (LL, AA), (20, 9, 10)), 0.45)
 
 # ---- a capa inteira, nitida, a esquerda ------------------------------------
-alt = 300 * E
+alt = int(AA * 0.86)
 lar = round(capa.width * alt / capa.height)
-px, py = 46 * E, (AA - alt) // 2
-sombra = Image.new("RGBA", (lar + 40 * E, alt + 40 * E), (0, 0, 0, 0))
-ImageDraw.Draw(sombra).rectangle([20 * E, 20 * E, lar + 20 * E, alt + 20 * E],
-                                 fill=(0, 0, 0, 200))
-sombra = sombra.filter(ImageFilter.GaussianBlur(14 * E))
-fundo.paste(sombra, (px - 20 * E, py - 20 * E), sombra)
+px, py = int(LL * 0.06), (AA - alt) // 2
+sombra = Image.new("RGBA", (lar + 44 * E, alt + 44 * E), (0, 0, 0, 0))
+ImageDraw.Draw(sombra).rectangle([22 * E, 22 * E, lar + 22 * E, alt + 22 * E],
+                                 fill=(0, 0, 0, 205))
+sombra = sombra.filter(ImageFilter.GaussianBlur(16 * E))
+fundo.paste(sombra, (px - 22 * E, py - 22 * E), sombra)
 fundo.paste(capa.resize((lar, alt), Image.LANCZOS), (px, py))
 
-# ---- texto -----------------------------------------------------------------
-d = ImageDraw.Draw(fundo)
-tx = px + lar + 52 * E
+# ---- o topo escurece ate' o preto, para a faixa do Nexus se fundir ---------
+mask = Image.new("L", (LL, AA), 0)
+d = ImageDraw.Draw(mask)
+lim = int(AA * 0.42)
+for y in range(AA):
+    if y < lim:
+        v = int(255 * ((lim - y) / lim) ** 0.75)
+    else:
+        v = 0
+    d.line([(0, y), (LL, y)], fill=v)
+fundo = Image.composite(Image.new("RGB", (LL, AA), (0, 0, 0)), fundo, mask)
 
-f_olho = fonte(["seguisb.ttf", "segoeui.ttf"], 20 * E)
-f_tit = fonte(["georgiab.ttf", "timesbd.ttf"], 66 * E)
-f_sub = fonte(["georgiai.ttf", "timesi.ttf"], 34 * E)
-f_pe = fonte(["segoeui.ttf", "arial.ttf"], 21 * E)
+# ---- a base tambem escurece: e' onde o Nexus escreve o nome do mod ---------
+mask2 = Image.new("L", (LL, AA), 0)
+d2 = ImageDraw.Draw(mask2)
+ini = int(AA * 0.62)
+for y in range(ini, AA):
+    d2.line([(0, y), (LL, y)], fill=int(190 * ((y - ini) / (AA - ini)) ** 1.3))
+fundo = Image.composite(Image.new("RGB", (LL, AA), (0, 0, 0)), fundo, mask2)
 
-yy = py + 18 * E
-d.text((tx, yy), "TRADUÇÃO PARA O PORTUGUÊS", font=f_olho, fill=(196, 130, 92))
-yy += 40 * E
-d.text((tx, yy), "Pathologic 3", font=f_tit, fill=(242, 234, 222))
-yy += 86 * E
-d.text((tx, yy), "em português brasileiro", font=f_sub, fill=(201, 134, 95))
-yy += 62 * E
-d.line([(tx, yy), (tx + 210 * E, yy)], fill=(120, 94, 80), width=2 * E)
-yy += 26 * E
-
-# uma linha so': banner cheio de texto nao se le
-partes = ["63.703 falas", "o jogo inteiro", "instalador de um clique"]
-cx = tx
-for i, p in enumerate(partes):
-    if i:
-        d.text((cx, yy), "  ·  ", font=f_pe, fill=(126, 106, 96))
-        cx += d.textlength("  ·  ", font=f_pe)
-    d.text((cx, yy), p, font=f_pe, fill=(206, 194, 182))
-    cx += d.textlength(p, font=f_pe)
-
-# ---- reduz e grava ---------------------------------------------------------
 final = fundo.resize((L, A), Image.LANCZOS)
 saida = os.path.join(AQUI, "banner-1300x372.jpg")
 final.save(saida, "JPEG", quality=93)
-print(f"banner-1300x372.jpg  {final.size}  ({os.path.getsize(saida)/1024:.0f} KB, limite 8 MB)")
+print(f"banner-1300x372.jpg  {final.size}  ({os.path.getsize(saida)/1024:.0f} KB)")
+
+# previa de como o Nexus mostra: faixa preta em cima e titulo sobreposto
+prev = Image.new("RGB", (L, 560), (0, 0, 0))
+prev.paste(final, (0, 560 - A))
+d3 = ImageDraw.Draw(prev)
+d3.text((16, 500), "Games / Pathologic 3 / Mods / Miscellaneous /", fill=(200, 140, 90))
+d3.text((16, 524), "Traducao PT-BR completa (Brazilian Portuguese)", fill=(240, 240, 240))
+prev.save(os.path.join(AQUI, "_previa_nexus.png"))
+print("_previa_nexus.png  simula a faixa preta e o titulo sobreposto")
