@@ -6,9 +6,9 @@ Tradução completa do jogo. São [b]63.703 falas[/b]: cada diálogo, cada anota
 
 [size=4][b]Como instalar[/b][/size]
 
-Baixe o arquivo, descompacte em qualquer pasta e dê dois cliques em [b]Instalar-Traducao-PTBR.exe[/b].
+Baixe o arquivo e extraia a pasta inteira onde quiser. Entre nela e dê dois cliques em [b]Instalar-Traducao-PTBR.exe[/b].
 
-Não precisa instalar Python nem nenhuma outra coisa. O programa encontra o jogo sozinho, guarda uma cópia de segurança antes de mexer em qualquer coisa, e tem um botão para desfazer.
+A pasta precisa ficar junta, do jeito que veio: o programa usa os arquivos que estão ao lado dele. Não precisa instalar Python nem nenhuma outra coisa. O programa encontra o jogo sozinho, guarda uma cópia de segurança antes de mexer em qualquer coisa, e tem um botão para desfazer.
 
 A instalação leva alguns minutos porque reescreve um arquivo grande do jogo. A barra fica bastante tempo na última etapa. É normal, não travou.
 
@@ -31,6 +31,8 @@ Tradução automática é jogar o texto num tradutor e colar o resultado. Não f
 [b]Por fim, muita revisão.[/b] Várias passagens de leitura procurando o que soasse traduzido em vez de escrito: fala fora de lugar, nome que muda de uma cena para outra, piada que morreu no caminho, personagem trocado. Cada problema encontrado virou correção e, quando fazia sentido, virou regra nova no glossário para não acontecer de novo.
 
 O objetivo não era traduzir palavra por palavra. Era localizar, ou seja, fazer o texto soar como se tivesse sido escrito em português desde o começo.
+
+[b]E dá para conferir.[/b] O código do instalador, as ferramentas e o glossário com as 105 decisões estão abertos: [url=https://github.com/IgusMarine/pathologic3-ptbr]github.com/IgusMarine/pathologic3-ptbr[/url]. Quem quiser ler antes de rodar, ou reconstruir o instalador por conta própria, pode.
 
 [line]
 
