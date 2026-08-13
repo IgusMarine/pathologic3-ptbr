@@ -95,15 +95,37 @@ class App(ctk.CTk):
         ctk.CTkLabel(p, text="em português brasileiro", font=("Georgia", 30, "italic"),
                      text_color="#c9865f").pack(anchor="w", padx=46, pady=(2, 30))
 
-        ctk.CTkLabel(
-            p, width=490, justify="left", wraplength=490,
-            font=("Segoe UI", 17), text_color=COR_FRACO,
-            text=("Tradução completa, feita por fã: 63.703 falas — o jogo "
-                  "inteiro, incluindo os interrogatórios e as entrevistas "
-                  "do hospital.\n\n"
-                  "Antes de mexer em qualquer coisa, o programa guarda uma "
-                  "cópia de segurança. Dá para desfazer a qualquer momento."),
-        ).pack(anchor="w", padx=46)
+        abre = ctk.CTkFrame(p, fg_color="transparent")
+        abre.pack(anchor="w", padx=44, fill="x", pady=(0, 20))
+        ctk.CTkLabel(abre, width=490, justify="left", wraplength=490, anchor="w",
+                     font=("Segoe UI", 16), text_color="#b9aca2",
+                     text="A cidade inteira em português — do prólogo ao "
+                          "décimo segundo dia.").pack(anchor="w")
+
+        for forte, resto in [
+            ("63.703 falas",        "o jogo todo, sem sobra em inglês"),
+            ("Traduzida do russo",  "direto do original, sem intermediário"),
+            ("Nomes em português",  "nada de apelido deixado em inglês"),
+            ("«o senhor» e «você»", "seguem a distinção do original"),
+            ("105 termos travados", "o mesmo nome do começo ao fim"),
+        ]:
+            li = ctk.CTkFrame(p, fg_color="transparent")
+            li.pack(anchor="w", padx=44, fill="x", pady=4)
+            ctk.CTkLabel(li, text="✓", font=("Segoe UI", 17, "bold"),
+                         text_color="#c9865f", width=26, anchor="w").pack(side="left")
+            ctk.CTkLabel(li, text=forte, font=("Segoe UI", 15, "bold"),
+                         text_color=COR_TEXTO, anchor="w").pack(side="left")
+            ctk.CTkLabel(li, text=f"  ·  {resto}", font=("Segoe UI", 15),
+                         text_color=COR_FRACO, anchor="w").pack(side="left")
+
+        seg = ctk.CTkFrame(p, fg_color="transparent")
+        seg.pack(anchor="w", padx=44, fill="x", pady=(22, 0))
+        ctk.CTkLabel(seg, text="↺", font=("Segoe UI Symbol", 21),
+                     text_color="#87977f", width=26, anchor="w").pack(side="left", anchor="n")
+        ctk.CTkLabel(seg, width=448, justify="left", wraplength=448, anchor="w",
+                     font=("Segoe UI", 14), text_color="#8b8078",
+                     text="Guarda uma cópia de segurança antes de mexer em nada. "
+                          "Dá para desfazer a qualquer momento.").pack(side="left")
 
         # -------- onde esta o jogo
         ctk.CTkLabel(p, text="PASTA DO JOGO", font=("Segoe UI", 13, "bold"),
