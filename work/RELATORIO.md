@@ -74,7 +74,7 @@ agora bloqueia isso.
 
 ## Decisões tomadas sem consulta (regras já fixadas pelo usuário)
 
-- Nome inglês vazando do texto-fonte → transliteração, sempre
+- Nome vindo da versão inglesa → transliteração, sempre
 - Apelido descritivo → tradução que soe brasileira
 - Deriva de glossário, aspas, campo extra → correção automática
 - Itálico → colocado onde a ênfase do inglês manda
@@ -150,12 +150,12 @@ corrente em pt-BR e ainda economiza 8 caracteres na notificação.
 traduzir apelido de bicho (a Mandarina, o Corvinho, o Tentilhão, a
 Gralha, o Andorinhão). Faltavam duas:
 
-- **Спичка** estava como *"Sticky"* em 31 linhas — nome inglês vazando.
+- **Спичка** estava como *"Sticky"* em 31 linhas, forma da versão inglesa.
   Agora **o Fósforo**, que é o que a palavra quer dizer e o que outras
   linhas já usavam. O item "caixa de fósforos" usa a mesma palavra no
   russo de propósito: o menino tem o nome do objeto, e isso se preserva.
 - **Белка** (esquilo) oscilava entre *"Belka"* e *"Musaranho"*. O inglês
-  trocou o bicho por *shrew*, e isso quebrou a piada. Agora **Serelepe**
+  usa *shrew*; com o esquilo a piada da noz fecha. Agora **Serelepe**
   — nome brasileiro do esquilo, e também criança inquieta.
 
 Ambos travados no glossário, com varredura de duas chaves.
@@ -220,10 +220,10 @@ E o Тентильан (Клёст) estava roubando o nome do Щур, que ja' er
 Estabelecido" com 10 formas em 26 usos) foram unificados — 3 ja' tinham se
 resolvido sozinhos com a limpeza do caractere ⇥. Entre os 136 grupos de
 nome de lugar/cargo, dois achados de peso: a faccao "os Duas-Almas" tinha
-quatro grafias (uma delas, "Alma e Meia", era mistraducao — o termo russo
+quatro grafias (uma delas, "Alma e Meia", diverge do russo: o termo
 quer dizer "duas almas", nao "uma alma e meia"); e "Concept Artist" nos
 creditos vazava ingles cru, agora "Artista Conceitual". Tambem corrigido:
-"Changeling" vazando pra' a Impostora, duas salas do Rubin que estavam
+"Changeling" chegando ate' a Impostora, duas salas do Rubin que estavam
 sendo confundidas uma com a outra (Sala de Autopsias x Esconderijo).
 
 ### Achado extra na conferencia manual: um sistema inteiro de 29 nomes de ave
@@ -370,7 +370,7 @@ Sete ja estavam certas. Batizamos 21, mais tres achados:
   saida E o passaro papagaio-do-mar). O proprio ingles dos devs diz
   "visitor Puffin". Alem de errado, colidia com o rotulo de interface ja
   unificado. Virou **Araçari** (o bico enorme e colorido e' a mesma graca).
-- **id 31940.0** tinha russo VAZIO e o ingles "visitor Auk" vazando cru
+- **id 31940.0** tinha russo VAZIO e o ingles traz "visitor Auk", que passou cru
   como "visitante Auk" — a varredura pelo russo nunca acharia. Virou
   **Biguá**.
 - **Копыто** e **Коростель** ja tinham forma consolidada no dialogo (Casco,
@@ -447,13 +447,13 @@ resultado:
   cena, e reusou verbatim. Garante que o jogador nunca veja a mesma fala
   escrita de dois jeitos.
 - **Ancoraram vocabulario no corpus em vez de inventar.** `«Медики»` estava
-  como "Ordeiros" (decalque errado de *Orderlies*) e virou "Enfermeiros", a
+  como "Ordeiros", calcado em *Orderlies*, e virou "Enfermeiros", a
   forma que o resto da UI ja usava. `«побычики»`, palavra inventada por um
   personagem louco, virou "embovinos" porque o corpus ja usava isso em 8
   linhas, inclusive numa fala que se refere de volta a esse mesmo paciente.
 
 Casos de localizacao que valem registro: `Житочник` (ingles: "Hardman")
-virou **Valentão**; `Аристарх` (ingles: "Swangoose") ficou **Aristarkh**,
+virou **Valentão**; `Аристарх` (ingles: "Swangoose" (forma da versao inglesa)) ficou **Aristarkh**,
 como manda o glossario — o apelido ingles nao passou.
 
 ### Resultado
