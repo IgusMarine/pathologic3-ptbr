@@ -97,10 +97,13 @@ class App(ctk.CTk):
 
         abre = ctk.CTkFrame(p, fg_color="transparent")
         abre.pack(anchor="w", padx=44, fill="x", pady=(0, 20))
+        # Nada de "do prologo ao decimo segundo dia": os arquivos do dia 12
+        # sao Final e VillainSpeech — dizer onde a historia termina e' spoiler,
+        # e o primeiro item da lista ja' garante que esta completo.
         ctk.CTkLabel(abre, width=490, justify="left", wraplength=490, anchor="w",
                      font=("Segoe UI", 16), text_color="#b9aca2",
-                     text="A cidade inteira em português — do prólogo ao "
-                          "décimo segundo dia.").pack(anchor="w")
+                     text="A cidade inteira em português — cada fala, cada "
+                          "anotação, cada tela.").pack(anchor="w")
 
         for forte, resto in [
             ("63.703 falas",        "o jogo todo, sem sobra em inglês"),

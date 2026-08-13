@@ -4,8 +4,8 @@ Tradução e localização completas de **Pathologic 3** (Мор) para portuguê
 brasileiro. Feita por fã, sem vínculo com a Ice-Pick Lodge ou a Hypetrain
 Digital.
 
-**63.703 falas — o jogo inteiro**, incluindo os interrogatórios que
-emolduram a história e as entrevistas de paciente do hospital.
+**63.703 falas — o jogo inteiro.** Cada diálogo, cada anotação, cada tela
+de interface.
 
 ---
 
