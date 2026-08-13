@@ -108,7 +108,7 @@ class App(ctk.CTk):
         for forte, resto in [
             ("63.703 falas",        "o jogo todo, sem sobra em inglês"),
             ("Feita com pesquisa",  "não é tradução automática"),
-            ("Baseada no russo",    "o original, não a versão inglesa"),
+            ("Feita do russo",      "a partir do idioma original do jogo"),
             ("Nomes em português",  "apelido não fica em inglês"),
             ("105 termos fixados",  "o mesmo nome do começo ao fim"),
         ]:

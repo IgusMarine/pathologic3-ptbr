@@ -33,10 +33,11 @@ lugares, de facções, de doenças. Cada um com uma decisão registrada e o moti
 dela. Esse glossário virou lei do projeto. Existe uma verificação automática
 que roda a cada versão e recusa o resultado se algum termo tiver escapado.
 
-**A base é o russo, não o inglês.** O jogo é russo. A versão em inglês já é
-uma tradução, com escolhas próprias e alguns erros herdados. Traduzir a partir
-dela seria copiar problema dos outros. Então o original russo é que manda, e o
-inglês serve apenas para tirar dúvida quando o russo é ambíguo.
+**A base é o russo.** O jogo foi escrito em russo, e é de lá que esta tradução
+sai. Toda tradução faz escolhas próprias, e partir da versão em inglês seria
+herdar as escolhas dela em vez de decidir as nossas. Indo direto ao original,
+cada decisão daqui responde ao texto que os autores escreveram. O inglês
+continua por perto, para ajudar quando o russo é ambíguo.
 
 **Por fim, muita revisão.** Várias passagens de leitura procurando o que
 soasse traduzido em vez de escrito: fala fora de lugar, nome que muda de uma
