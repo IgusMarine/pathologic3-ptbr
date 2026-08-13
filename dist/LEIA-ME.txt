@@ -1,0 +1,88 @@
+TRADUÇÃO PT-BR — PATHOLOGIC 3
+=============================
+
+Tradução e localização não oficial para português brasileiro.
+Versão de teste.
+
+
+O QUE É
+-------
+Este pacote contém APENAS o texto traduzido e um script que o aplica na
+sua cópia do jogo. Você precisa ter o Pathologic 3 instalado.
+
+Nada aqui substitui o jogo. O script altera os textos da sua própria
+instalação e guarda uma cópia de segurança antes de mexer em qualquer
+coisa.
+
+
+COMO INSTALAR
+-------------
+1. Instale o Python 3, se ainda não tiver:
+      https://www.python.org/downloads/
+      (marque "Add Python to PATH" durante a instalação)
+
+2. Abra o Prompt de Comando e instale a biblioteca necessária:
+
+      pip install UnityPy
+
+3. Feche o jogo, se estiver aberto.
+
+4. Entre na pasta deste pacote e rode:
+
+      python aplicar_traducao.py
+
+   O script procura o jogo sozinho. Se não achar, passe o caminho:
+
+      python aplicar_traducao.py "D:\SteamLibrary\steamapps\common\Pathologic 3"
+
+5. Espere terminar (reescreve um arquivo de ~780 MB, leva alguns minutos)
+   e abra o jogo.
+
+
+COMO DESINSTALAR
+----------------
+      python aplicar_traducao.py --restaurar
+
+Isso devolve o arquivo original, que foi guardado como
+resources.assets.bak dentro da pasta do jogo.
+
+Se algo der errado e o backup tiver se perdido, o Steam resolve:
+   Biblioteca > clique direito no jogo > Propriedades > Arquivos
+   Instalados > Verificar integridade dos arquivos do jogo
+
+
+AVISOS
+------
+- Uma atualização do jogo sobrescreve a tradução. É só rodar de novo.
+- Se o jogo atualizar e mudar os textos, o script avisa que nenhum texto
+  foi trocado e não altera nada.
+- Jogue com backup do save, por precaução.
+
+
+O QUE OLHAR DURANTE O TESTE
+---------------------------
+O que mais ajuda não é erro de português — é o que a tela mostra:
+
+- texto cortado ou estourando a caixa de diálogo
+- botão com texto que não cabe
+- fala que parece fora de lugar na conversa
+- nome de personagem ou lugar que muda de uma cena para outra
+- qualquer coisa que soe traduzida em vez de escrita em português
+
+Anote o momento (dia do jogo, personagem, cena) — com isso dá para achar
+a linha exata.
+
+
+CRÉDITOS
+--------
+Tradução: Igor
+Jogo: Ice-Pick Lodge / Hypetrain Digital
+
+A terminologia desta tradução foi alinhada com a tradução pt-BR de
+Pathologic 2 & Marble Nest, feita por Yuri Beira. Os dois jogos se passam
+na mesma cidade, com o mesmo elenco — quem jogou o 2 em português vai
+encontrar aqui os mesmos nomes de lugares, facções e personagens.
+
+Esta é uma tradução feita por fã, sem vínculo com os desenvolvedores nem
+com a distribuidora. Distribua apenas o pacote de tradução, nunca os
+arquivos do jogo.

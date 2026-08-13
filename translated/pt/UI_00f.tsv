@@ -1,0 +1,60 @@
+58723.53	A peste está sobre nós. Tempos difíceis exigem decisões difíceis. Sem remédios no hospital, não aguentaremos muito.
+23650.0	Amálgama
+23650.1	Amálgama é necessária para recordar o passado.
+34079.0	Amálgama
+34079.1	Pode ser obtida quebrando espelhos... e de mais algumas maneiras
+53218.0	Amálgama
+53218.1	Amálgama é gasta tanto no passado do Bacharel quanto no passado do jogador. Cada morte exige um pagamento.
+63346.0	Saídas do Distrito
+63346.1	Para sair do distrito, encontre arcos com relógios
+67175.0	Nem todos os sintomas foram selecionados.
+67175.1	Examine o paciente com atenção, registre os sintomas ausentes no Prontuário e pergunte sobre eles
+75115.0	Segunda entrevista com o paciente
+75115.1	Você registrou um sintoma sobre o qual pode perguntar ao paciente.
+57570.0	Olhar Atento
+57570.1	Alguns objetos podem ser úteis. Posso identificá-los facilmente se eu <InputActions/Weapon/Tags> me concentrar
+48097.0	Protótipo
+48097.1	Segure <InputActions/Weapon/Shoot> para carregar. Solte quando o pêndulo parar
+45749.0	As pessoas se intimidam com armas.
+45749.1	A mera visão de uma arma erguida deterá um amotinado por um instante. Pressione <InputActions/Weapon/Aim> para mirar o revólver.
+17557.0	Revólver
+17557.1	O povo revoltado contra a quarentena quer me matar. Preciso me defender. <InputActions/UI/WeaponSelector> — sacar o revólver, <InputActions/Weapon/Reload> — recarregar
+51224.0	Revólver
+51224.1	O povo revoltado contra a quarentena quer me matar. Preciso me defender. <InputActions/Weapon/Slot2> — sacar o revólver, <InputActions/Weapon/Reload> — recarregar
+50351.0	Escambo
+50351.1	Para negociar um item, preciso colocá-lo no espaço de troca
+74523.0	Escambo
+74523.1	Se quero algo, preciso dar algo em troca. Posso fazer isso colocando os itens nos espaços do meu lado do inventário
+48476.0	Justo e Equânime
+48476.1	As pessoas não aceitarão uma troca se eu oferecer itens menos valiosos do que aquilo que peço
+28205.0	Microscópio
+28205.1	As amostras de tecido são colocadas em lâminas de vidro. Um assistente garante que as lâminas estejam sempre supridas
+50151.0	Microscópio
+50151.1	Uma doença afeta vários sistemas do corpo. O microscópio ajuda a identificar qual órgão está infectado
+49952.0	[Texto de Exemplo]\nConfirmar Diagnóstico
+49952.1	[Texto de Exemplo]\nConfirmar Diagnóstico
+57275.0	Manual de Referência
+57275.1	O botão ao lado do nome de uma doença mostrará uma descrição detalhada: modos de transmissão, grupos de risco, e assim por diante. Isso ajudará a determinar o diagnóstico quando houver dúvidas
+67267.0	Diagnósticos
+67267.1	<i>Pressione <InputActions/UI/TabletDiagnosis> para selecionar um diagnóstico. Confirme pressionando <InputActions/UI/TabletDiagnosis> novamente</i>
+50055.0	Diagnósticos
+50055.1	<i>Clique no nome da doença nesta lista. Depois, pressione <InputActions/UI/TabletDiagnosis> e confirme o diagnóstico</i>
+6439.0	Prontuários
+6439.1	Contém informações sobre o paciente, seu estilo de vida e queixas. Todas as queixas devem ser marcadas como sintomas, embora os pacientes frequentemente se enganem sobre suas próprias condições
+47566.0	Seleção de Sintomas
+47566.1	Os sintomas ajudarão a diagnosticar o paciente. Quando um sintoma é marcado no Prontuário, posso perguntar mais sobre ele. Portanto, faz sentido marcar todas as queixas, até as duvidosas. Depois, posso remover a marcação
+34917.0	
+34917.1	Use <InputActions/Inventory/NextSlot>/<InputActions/Inventory/PrevSlot> para selecionar um item de acesso rápido
+6401.0	Pensamentos Emaranhados
+6401.1	Eu sempre me lembro de itens importantes — Artefatos. Coisinhas são esquecíveis. <i>Itens de consumo não são transferidos entre dias. Eles me esperam no relógio, no dia em que os coletei</i>
+18182.0	Memórias
+18182.1	Itens existem apenas nos dias em que foram encontrados. Ao mudar de dia, eles permanecem no Relógio.
+67483.0	Síntese de Medicamentos
+67483.1	O principal é não agir sem pensar. Se eu errar—perco tudo com o que estava trabalhando. É melhor consultar o caderno de receitas <InputActions/UI/CraftRecipes>.
+53049.0	Síntese de Medicamentos
+53049.1	Aqui posso criar medicamentos a partir de materiais encontrados. Não conseguirei criar nada complexo, mas posso montar algo com dois ou três ingredientes.
+71954.0	Novas Fórmulas
+71954.1	As farmácias estão fechadas e os suprimentos estão acabando. Mas com meu equipamento, poderei criar quase tudo que preciso.
+9171.0	
+9171.1	A apatia quase me consumiu. Preciso de um estímulo: drogas, ou qualquer coisa...
+6879.0	

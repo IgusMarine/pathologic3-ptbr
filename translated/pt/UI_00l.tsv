@@ -1,0 +1,60 @@
+19578.1	Ideias para novos decretos surgirão se eu cumprir tarefas para os moradores locais
+30293.0	Paradoxo
+30293.1	O arranjo atual dos decretos é impossível de executar: decretos anteriores não deixam recursos para os posteriores. Preciso reconsiderar minhas decisões.
+21814.0	Consequências
+21814.1	Destruí um foco de infecção, e a peste recuou. Combater o shabnak é uma boa alternativa aos decretos
+24519.0	Decretos
+24519.1	Recebi autoridade para promulgar até três decretos por dia. Quanto mais eu estudar a Cidade, mais maneiras encontrarei de influenciá-la
+21131.0	Contágio e Rebelião
+21131.1	Decretos consomem recursos e prolongam a sobrevivência da Cidade. Isso se reflete nos gráficos de Contágio e Rebelião. Se eles dispararem demais, a Cidade perecerá
+73980.0	Mesa de Comando
+73980.1	A administração da Cidade acontece na minha mesa
+55775.0	Decretos
+55775.1	Até três decretos podem ser emitidos por dia. Decretos emitidos podem valer para qualquer dia disponível, não apenas para o atual
+60558.0	Uma Única Tentativa
+60558.1	Shabnak é imprevisível, e tenho apenas uma tentativa. Antes de atirar, devo imobilizá-lo com uma fogueira ou com o Protótipo.
+12496.0	O Fim
+12496.1	Minha mão alcança a última bala. Vou parar se conseguir reunir meus pensamentos rapidamente. <i>Preciso descobrir e pressionar os pensamentos que me trarão alívio antes que o tempo acabe</i>
+61794.0	O Fim
+61794.1	A apatia atingiu seu pico, e a vontade de viver se esvai. A última esperança é me agarrar a um pensamento...
+36166.0	Diagnóstico Final
+36166.1	Para confirmar o diagnóstico, segure <InputActions/UI/TabletDiagnosis>. Depois você pode fechar o Prontuário
+54879.0	Fazendo um Diagnóstico
+54879.1	Marque todos os sintomas compatíveis e escolha o diagnóstico. Para alternar para a aba de diagnósticos, use <InputActions/UI/TabletDiagnosis>
+6224.0	Fazendo um Diagnóstico
+6224.1	Marque todos os sintomas compatíveis e escolha o diagnóstico
+54112.0	Fichário
+54112.1	Primeiro, marque os sintomas suspeitos do paciente; depois, escolha o diagnóstico adequado. Alguns sintomas podem estar errados!
+72726.0	Pensamentos Perturbadores
+72726.1	Alguns pensamentos afetarão seu estado mental
+55900.0	Pressione <InputActions/Weapon/Slot1> para empunhar o Protótipo
+55900.1	Pressione <InputActions/Weapon/Slot1> para empunhar o Protótipo
+25047.0	Pegue seus pertences no armário embaixo do mecanismo de relógio.
+25047.1	Pegue seus pertences no armário embaixo do mecanismo de relógio.
+67539.0	A Cidade Precisa Viver
+67539.1	Contágio e Rebelião destroem o futuro quando sobem acima da linha vermelha no gráfico da Mesa de Comando. Devo salvar a Cidade todos os dias para seguir em frente — emitindo decretos eficazes ou eliminando focos de infecção
+30446.0	Outro Dia
+30446.1	Contar a história exige tempo. O tempo se corporifica na amálgama. Vou consumi-la ao tentar recordar outro dia
+14262.0	Outro Dia
+14262.1	Um novo dia traz novas memórias. Escolha um dia para investigar
+77300.0	Coleta de Amostra
+77300.1	Esta é a chave para a vitória sobre o shabnak. Devo <InputActions/Interact/DefaultInteract> coletar os esporos do chão para dentro do Protótipo. O shabnak não vai gostar disso, mas não devo me virar por muito tempo nem fugir
+26792.0	Segure <InputActions/Weapon/Shoot> para carregar o Protótipo
+26792.1	Segure <InputActions/Weapon/Shoot> para carregar o Protótipo
+71871.0	Abra o Prontuário com N; todos os pacientes estão lá
+71871.1	Abra o Prontuário com N; todos os pacientes estão lá
+76364.0	[Texto de Exemplo]\nIndicador no canto inferior esquerdo
+76364.1	[Texto de Exemplo]\nIndicador no canto inferior esquerdo
+24645.0	Decreto de Vacinação
+24645.1	Se você diagnosticar corretamente todos os pacientes de um dia, receberá um decreto de vacinação. Se errar o diagnóstico de um único paciente, não receberá o decreto de vacinação — você precisará refazer o dia e corrigir seu erro
+68923.0	Entrevista Repetida
+68923.1	Sintomas incorretos foram selecionados, interferindo no diagnóstico. Abra o Prontuário com <InputActions/UI/Tablet> e tente novamente
+69549.0	Ainda há pontos de interesse não explorados
+15216.0	Protocolo 10
+15216.1	Vacinar a população com a droga experimental da Mesa de Comando de Emergência
+72599.0	Protocolo 11
+72599.1	Vacinar a população com a droga experimental do Comando Médico do exército
+73618.0	Primeira Tentativa
+73618.1	Vacinar a população com a droga experimental do Comitê de Epidemias de Emergência.
+41785.0	Protocolo 4
+41785.1	Vacinar a população com a droga experimental do Comitê de Epidemias de Emergência.

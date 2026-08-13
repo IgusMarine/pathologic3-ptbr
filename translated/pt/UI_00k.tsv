@@ -1,0 +1,60 @@
+54437.1	Interfaces estão em desenvolvimento e não refletem a qualidade final
+76819.0	
+76819.1	Adicionar a versão completa à lista de desejos
+6655.0	Mundo Material
+6655.1	A mente é afetada por <InputActions/Interact/DefaultInteract> interações com objetos específicos. Eles são fáceis de notar se você entrar em modo de concentração com <InputActions/Weapon/Tags>
+77212.0	Carga Longa
+77212.1	Segure <InputActions/Weapon/Shoot> para carregar o Protótipo. Solte depois que o pêndulo parar
+75834.0	Saturação em Zero
+75834.1	Um Protótipo vazio não dissipa a miasma da peste. Posso carregá-lo na Stillwater pela estação de latão. O baú próximo geralmente tem componentes para uma carga
+56657.0	Protótipo do Bacharel
+56657.1	A névoa da peste esconde perigos. Segure <InputActions/UI/WeaponSelector> e selecione o Protótipo usando <InputActions/Movement/Look>
+46421.0	Protótipo do Bacharel
+46421.1	A névoa da peste esconde perigos. <InputActions/Weapon/Slot1> — equipe o Protótipo
+23651.0	A Caneta é Mais Forte
+23651.1	Apenas histórias contadas por inteiro entram no relatório do interrogatório. Se uma história for abandonada no meio, ela deve ser recontada do início
+77283.0	Outros Eventos
+77283.1	As consequências das minhas decisões sempre me levarão a acabar na prisão. Preciso agir de outro jeito. Ao encontrar o pensamento final da cadeia, posso <InputActions/Hints/MindQuestResetHint> mudar os eventos antes de começar o dia
+34962.0	Outra Versão
+34962.1	Posso cancelar eventos passados. <i>Clique em <InputActions/Hints/MindQuestResetHint> um nó em forma de engrenagem. Ele ficará vermelho, significando que a cadeia de eventos que leva àquele nó será desfeita quando o dia começar. Outras pessoas esquecerão o que foi dito, artefatos obtidos nessa história serão removidos de mim. </i> É crucial cancelar a fuga fracassada no Dia 4, senão acordarei na prisão de novo amanhã
+59554.0	Quatro Bolsos
+59554.1	Melhor guardar consumíveis aqui. De cada bolso <InputActions/Inventory/NextSlot>/<InputActions/Inventory/PrevSlot> posso usar itens rapidamente <InputActions/Inventory/UseSelectedSlot>
+23658.0	Quatro Bolsos
+23658.1	Consumíveis podem ficar ao alcance. Selecione um item do bolso — <InputActions/UI/PrevItem>/<InputActions/UI/NextItem>, uso rápido — <InputActions/UI/Submit>
+13313.0	Quatro Bolsos
+13313.1	Consumíveis podem ficar ao alcance. Uso rápido dos itens nos bolsos — teclas <InputActions/Inventory/FastSlot1>/<InputActions/Inventory/FastSlot2>/<InputActions/Inventory/FastSlot3>/<InputActions/Inventory/FastSlot4>
+25646.0	Use a mesa e revogue o decreto de vacinação
+25646.1	Use a mesa e revogue o decreto de vacinação
+57087.0	Fuja da Shabnak. Procure a saída do distrito em forma de arco
+57087.1	Fuja da Shabnak. Procure a saída do distrito em forma de arco
+55747.0	Mania
+55747.1	A Mania alta acelera o mundo e prejudica a saúde. Em doses excessivas, pistas guias começam a aparecer diante dos meus olhos
+29544.0	A Shabnak Se Aquieta
+29544.1	Você a conteve por hoje. A cidade se recupera da peste. Ela espera por você em outros dias. Ela estará mais forte
+48256.0	A Areia Muda
+48256.1	O Subúrbio Bruto ardia em chama amarela. Se a Shabnak entra no fogo e a cor da chama é diferente, não é a Peste Arenosa. Preciso observar as fogueiras com atenção. A Shabnak é senciente e aprende: ela tentará me enganar
+39880.0	Coisa da Estepe
+39880.1	O protótipo pode desacelerá-la. Fogueiras podem desacelerá-la. Ela não pode ser detida. Cuidado
+34489.0	Pesadelo Encarnado
+34489.1	Não pode ser morta. Corra em direção ao seu objetivo — tente não ser pego
+39080.0	
+39080.1	O protótipo pode desacelerá-la
+19951.0	
+19951.1	Fogueiras podem desacelerá-la
+18921.0	Carregue o Protótipo
+18921.1	Preciso colocar os itens nas células, depois pressionar o botão «carregar»
+61451.0	Carregue o Protótipo
+61451.1	A solução desinfetante consiste em três ingredientes: um estimulante, um anestésico e uma toxina
+21699.0	Carregue o Protótipo
+21699.1	Antes de usar o Protótipo, você precisa carregá-lo. Os ingredientes estão no armário; a estação de carga está na mesa
+40510.0	Decretos
+40510.1	Decretos afetam a cidade de várias maneiras. O impacto deles aparece nos gráficos. É preciso pensar bem para alocar recursos de forma ideal!
+6829.0	Recursos
+6829.1	Decretos afetam a cidade de maneiras diferentes e consomem recursos do Comando de Emergência. Pessoas são substituíveis. Coisas não são
+65520.0	Decreto Ruim
+65520.1	O decreto promulgado está causando problemas. Selecione e remova usando <InputActions/UI/RemoveStaffCommand>
+30538.0	Prognóstico
+30538.1	Se a cidade vive, eu vivo. Para garantir isso, devo manter a Contaminação e a Rebelião dentro de limites aceitáveis com decretos. Melhor ainda, devo buscar outros caminhos também
+18796.0	Consequências
+18796.1	Os decretos promulgados já afetaram a cidade. Mais ameaças significam mais distritos perigosos
+19578.0	A Busca

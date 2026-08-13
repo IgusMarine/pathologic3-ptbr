@@ -1,0 +1,69 @@
+# ---------------------------------------------------------------------------
+# NADA DO JOGO ENTRA NO REPOSITORIO
+#
+# O que derruba um projeto de traducao nao e' a traducao — e' redistribuir
+# arquivo do jogo. Tudo abaixo e' material da Ice-Pick Lodge / Hypetrain,
+# ou derivado direto dele.
+# ---------------------------------------------------------------------------
+
+# O texto original do jogo, nos tres idiomas. Sao ~200 MB do roteiro deles.
+# Quem tem o jogo regenera com tools/extract_texts.py.
+extracted/
+
+# O resources.assets ja' modificado: e' o arquivo do jogo, 784 MB.
+patched/
+*.assets
+*.assets.bak
+*.assets.novo
+
+# A arte de capa e o icone derivado dela pertencem a Ice-Pick Lodge.
+# O instalador precisa deles para compilar: coloque a sua propria copia em
+# installer/capa_original.png e rode installer/gerar_arte.py.
+installer/capa_original.png
+installer/arte.png
+installer/icone.ico
+installer/preview.png
+installer/exe_*.png
+
+# Traducao do Pathologic 2 do Yuri Beira — trabalho de outra pessoa, usado
+# so' como referencia de terminologia, nunca redistribuido.
+Pathologic 2*/
+
+# A pasta work/ inteira e' rascunho de traducao: lotes, prompts e dumps de
+# revisao que carregam o roteiro RUSSO original dentro. Nada dela sobe.
+# As excecoes abaixo sao texto nosso.
+work/*
+!work/RELATORIO.md
+!work/italicos_spec.tsv
+
+# ---------------------------------------------------------------------------
+# Gerado — reconstroi com as ferramentas do repositorio
+# ---------------------------------------------------------------------------
+
+# Sai de tools/apply_pt.py. Vai como anexo de Release, nao versionado:
+# sao 10 MB que mudam inteiros a cada build.
+translated/ptbr_final.json
+translated/progress.json
+dist/ptbr_final.json
+installer/ptbr_final.json
+
+# PyInstaller
+installer/build/
+installer/dist/
+*.spec
+
+# Pacotes prontos: anexo de Release
+*.zip
+
+# ---------------------------------------------------------------------------
+# Lixo de ambiente
+# ---------------------------------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+*.log

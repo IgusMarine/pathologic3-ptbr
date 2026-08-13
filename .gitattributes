@@ -1,0 +1,16 @@
+# Os arquivos de dados sao gravados e lidos com quebra de linha Unix pelas
+# ferramentas (newline="\n" explicito em tools/*.py). Deixar o Git converter
+# para CRLF no Windows tornaria o comportamento dependente de plataforma —
+# e o formato do jogo distingue quebra REAL de escape literal, entao aqui
+# byte importa.
+*.tsv   text eol=lf
+*.json  text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+
+# Binarios
+*.png   binary
+*.ico   binary
+*.zip   binary
+*.exe   binary

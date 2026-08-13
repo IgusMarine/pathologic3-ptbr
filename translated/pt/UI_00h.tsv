@@ -1,0 +1,60 @@
+11461.1	É perigoso aqui. Preciso estar pronto para me defender com uma arma <InputActions/UI/WeaponSelector>.
+52591.0	Combate
+52591.1	É perigoso aqui. Preciso estar pronto para me defender com uma arma <InputActions/Weapon/Slot2>.
+39853.0	Retirada Tática
+39853.1	O importante é não deixar que percebam que não tenho munição. Sempre posso <InputActions/Movement/Run> fugir correndo. Mas só terei velocidade suficiente com estimulantes.
+65839.0	Pessoas Comuns
+65839.1	Elas têm medo. Tiros para o alto ou a morte de algum dos amotinados vai assustá-las, mais cedo ou mais tarde.
+75345.0	Apatia
+75345.1	A melancolia e a indiferença não param de crescer. Com apatia alta, a velocidade das ações diminui e a amálgama se esgota. Sem amálgama, os outros dias da história ficam inacessíveis.
+63949.0	Equilíbrio
+63949.1	O estado da mente pode ser afetado pela interação com certos objetos. É fácil notá-los se você <InputActions/Weapon/Tags> se concentrar.
+46643.0	Mania
+46643.1	Mania alta sobrecarrega o coração e leva rapidamente à morte. A velocidade aumenta, e a vida — se esvai.
+64279.0	Balanço
+64279.1	A mente tem dois estados extremos: apatia e mania.
+62709.0	Apatia
+62709.1	Quanto maior a apatia, maior a precisão. Mas o limite da apatia é a morte.
+46362.0	
+46362.1	<InputActions/Weapon/Aim> — erguer o revólver e intimidar.
+64095.0	
+64095.1	<InputActions/Weapon/Tags> — enxergar as coisas dignas de atenção.
+67914.0	
+67914.1	<InputActions/Weapon/Match> — acender e atirar um fósforo.
+76044.0	
+76044.1	Este quarteirão está infectado. As nuvens de peste são perigosas, mas podem ser dissipadas com tiros do Protótipo. É melhor sair daqui o quanto antes.
+47930.0	
+47930.1	Primeiro é preciso fazer o diagnóstico e passar o caso para o assistente.
+50390.0	
+50390.1	<InputActions/Weapon/Tags> — ver as pessoas com quem vale a pena conversar.
+14938.0	
+14938.1	Primeiro é preciso reunir todas as evidências.
+65283.0	
+65283.1	O tempo está passando. As saídas do distrito são arcos com relógios.
+10127.0	
+10127.1	<InputActions/UI/Map> — consultar o mapa.
+46438.0	Mania
+46438.1	Quanto maior a mania, mais rápido o movimento. Mas a mania extrema ameaça a morte.
+53696.0	
+53696.1	Só vou sacar a arma em distritos perigosos.
+9186.0	
+9186.1	Não vou sacar a arma onde ninguém me ameaça.
+36670.0	
+36670.1	Este quarteirão está em pleno motim. Os amotinados podem ser intimidados com o revólver, mas atirar só em último caso. É melhor sair daqui o quanto antes.
+70441.0	Mesa de Ordens de Emergência
+70441.1	A Mesa de Ordens de Emergência fica no segundo andar.
+71029.0	Resultados do Diagnóstico
+71029.1	Todos os diagnósticos de hoje foram feitos. Os resultados serão levados à Stillwater depois das seis da tarde.
+28907.0	Diagnóstico Concluído com Sucesso
+28907.1	Todos os diagnósticos estão corretos. A cidade terá uma vacina eficaz, ao menos por hoje. Só resta assinar o decreto.
+53948.0	Erro nos Diagnósticos
+53948.1	O diagnóstico de alguém, infelizmente, está errado, o que significa que hoje não veremos vacina. Vale a pena revisar os prontuários para descobrir qual paciente não foi ajudado pelo tratamento.
+12472.0	Diagnósticos Insuficientes
+12472.1	Enquanto nem todos os pacientes de hoje forem diagnosticados, a vacina não poderá ser produzida. Nos prontuários, você pode ver qual diagnóstico ficou de fora.
+7945.0	Foco da Infecção
+7945.1	Agora preciso encontrar a Shabnak. Ao achá-la, devo <InputActions/UI/WeaponSelector> preparar o Protótipo para disparar a Carga e <InputActions/Weapon/Shoot> atingir a Peste para reduzir a infecção. Só tenho uma tentativa.
+7420.0	Foco da Infecção
+7420.1	Agora preciso encontrar a Shabnak. Ao achá-la, devo <InputActions/Weapon/Silver> preparar o Protótipo para disparar a Carga, <InputActions/Weapon/Shoot> atingir a Peste e reduzir a infecção. Só tenho uma tentativa.
+30050.0	Exame
+30050.1	É preciso examinar o paciente e registrar os sintomas no prontuário. Para abrir o prontuário — <InputActions/UI/Tablet>. Isso também pode ser feito durante o exame.
+57731.0	A Capital

@@ -1,0 +1,100 @@
+12671.1	controla a resolução da imagem. Reduzir o parâmetro aumenta o FPS; recomenda-se ativar TAAU
+12671.2	suaviza a imagem e elimina «serrilhados»; TAAU oferece o melhor equilíbrio entre qualidade e desempenho
+12671.3	controla o uso de técnicas avançadas de reconstrução de imagem e anti-aliasing
+12671.4	varia a resolução interna da imagem. Valor baixo aumenta o FPS, mas reduz a qualidade da imagem
+12671.5	ajusta a nitidez no upscale; valor excessivo causa artefatos
+12671.6	controla o uso de memória para texturas; reduz o desfoque, mas exige mais VRAM
+12671.7	remove o desfoque de texturas em ângulo; custo baixo para GPUs modernas
+12671.8	define a distância de renderização de objetos; afeta a carga de CPU e GPU
+12671.9	aumenta a nitidez das sombras, mas reduz o desempenho e exige VRAM
+12671.10	define o algoritmo de filtragem de sombras; PCSS as deixa mais suaves longe dos objetos
+12671.11	ajusta a precisão da filtragem PCSS; valores altos reduzem o desempenho
+12671.12	adiciona sombras finas de fontes de luz em objetos pequenos, melhorando o realismo
+12671.13	adiciona oclusão ambiental, escurecendo espaços apertados e frestas para maior profundidade
+12671.14	adiciona névoa volumétrica e dispersão de luz; valores altos reduzem o FPS
+12671.15	adiciona reflexos no espaço de tela; aumenta o realismo, mas reduz o FPS
+12671.16	simula a dispersão de luz subsuperficial em materiais, melhorando o realismo
+12671.17	adiciona desfoque sutil ao movimento rápido da câmera e de objetos, melhorando a fluidez
+12671.18	ajusta a intensidade do desfoque de movimento; reduz o FPS em valores altos
+54406.0	Renderização Básica
+54406.1	Escala de Resolução
+54406.2	Anti-aliasing
+54406.3	Upscaling
+54406.4	Qualidade do Upscaling
+54406.5	Nitidez
+54406.6	Texturas
+54406.7	Orçamento de Streaming de Texturas
+54406.8	Filtragem Anisotrópica
+54406.9	LODs
+54406.10	Sombras
+54406.11	Resolução de Sombras
+54406.12	Tipo de Filtragem de Sombras
+54406.13	Qualidade PCSS
+54406.14	Qualidade de Sombras de Contato
+54406.15	Qualidade SSAO
+54406.16	Iluminação
+54406.17	Qualidade de Iluminação Volumétrica
+54406.18	Qualidade SSR
+54406.19	Qualidade SSS
+54406.20	Efeitos
+54406.21	Intensidade do Desfoque de Movimento
+54406.22	Distância de Renderização
+54406.23	Qualidade do Desfoque de Movimento
+47555.0	Coveiro
+47555.1	
+47555.2	
+73074.0	Burduk
+73074.1	
+73074.2	
+48609.0	Búteo
+48609.1	
+48609.2	
+66944.0	No dia 4, foi crucificado como assassino de Simon
+66944.1	No dia 9, tentou roubar rações do exército, mas foi morto
+66944.2	Almoxarife dos depósitos e chefe do submundo do crime
+66944.3	No dia 4, quase foi crucificado pela multidão como suposto assassino de Simon
+66944.4	No dia 7, escondeu-se dos olhos do inquisidor
+66944.5	No dia 7, concordou em me ajudar com a fuga
+66944.6	No dia 9, roubou rações do exército
+66944.7	No dia 9, tentou roubar rações do exército, mas foi capturado
+66944.8	No dia 12, provavelmente fugirá da prisão
+18217.0	O Covil do Abutre
+18217.1	O Covil do Abutre
+49986.0	
+49986.1	Nome verdadeiro — Grigory Filin
+49986.2	Chefe dos ladrões locais
+49986.3	Amigo de infância de Artemy Burakh
+7281.0	Gripe
+7281.1	Doença respiratória aguda causada pelo vírus influenza. Atinge o trato respiratório. Considerada a mais grave entre as infecções respiratórias agudas.\n\nA doença se manifesta subitamente com fraqueza muscular, febre, tosse, dor de garganta, forte dor de cabeça e fotofobia. O comprometimento do trato respiratório superior começa com tosse, dor no peito e coriza. Depois, aparecem dor de garganta, falta de ar e rouquidão. Cepas raras de influenza podem ter sintomas gastrointestinais. A mortalidade por gripe aumenta em condições de aglomeração ou durante epidemias.\n\nGrupos de risco: gestantes, fumantes, pessoas que vivem em aglomeração.
+70292.0	Efeitos
+70292.1	Dias
+70292.2	Mensageiros
+70292.3	Locais
+70292.4	Prontuários
+70292.5	Quartel-General
+70292.6	Memórias
+70292.7	Marcadores
+70292.8	Amostras
+70292.9	Salvamentos
+70292.10	Itens
+70292.11	Receitas
+70292.12	Abrir Prontuários <InputActions/UI/Tablet>
+70292.13	Abrir Mapa Mental <InputActions/UI/Mind>
+70292.14	Recursos no Quartel-General
+70292.15	Amálgama obtida
+70292.16	Artefato adquirido
+70292.17	Quantidade: <count>
+70292.18	História salva
+70292.19	Receita aprendida: <recipe>
+70292.20	História salva
+70292.21	Abrir Dossiê <InputActions/UI/CharacterScreen>
+70292.22	Dossiê adicionado
+40146.0	Gulnara Samigullina
+40146.1	Programadora, Roteirista de Lógica de Jogo
+66360.0	PCF
+66360.1	PCSS
+36217.0	Variante 1
+36217.1	Variante 2
+56742.0	Fumante
+56742.1	Alcoólatra
+56742.2	Bebe com moderação

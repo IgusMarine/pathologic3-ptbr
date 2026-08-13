@@ -1,0 +1,60 @@
+6879.1	Mais um pouco e estou nos braços da morte. Preciso de remédios, senão não escapo
+10856.0	
+10856.1	A mania chegou ao limite. Dankovsky, segure-se! Tome um calmante
+17896.0	\nCidade Inquieta
+17896.1	Posso dobrar por outro arco. Então terei que <InputActions/Map/RemoveAllPoints> traçar uma nova rota. Vou ter que cruzar os distritos perigosos sozinho de novo
+17784.0	Extremos que Assustam
+17784.1	Quando estou em apatia ou mania profunda, é difícil falar com as pessoas. Primeiro preciso normalizar meu estado
+59806.0	Distrito Perigoso
+59806.1	Distritos perigosos exigem atenção — não dá para cruzá-los pelo mapa. Preciso encontrar um arco aberto com relógio
+62722.0	
+62722.1	Viajar no tempo já está disponível hoje através de todos os relógios da cidade
+11591.0	
+11591.1	
+16059.0	Chegou o fim do dia,
+16059.1	em que uma mise-en-scène se revela.
+13688.0	
+13688.1	São os pensamentos do Bacharel sobre este objeto. Você encontrará mais objetos assim durante o jogo
+74991.0	Tome o Tempo Deles
+74991.1	O sofrimento dos atingidos pela praia de areia é insuportável. Com uma dose exata de remédios, posso dar paz ao infeliz — e o tempo de vida que lhe resta fica comigo
+73198.0	Tome o Tempo Deles
+73198.1	Se eu injetar apáticos demais, o doente morre em agonia. De menos, não alivio o sofrimento dele. Preciso achar o meio-termo
+45824.0	É preciso achar a dose certa
+45824.1	Overdose intensifica a agonia, e eu devo é aliviá-la. <i>As drogas injetadas deslocam o cursor na escala. É preciso acertar a área destacada antes que os batimentos do moribundo disparem</i>
+56127.0	É preciso achar a dose certa
+56127.1	Alternar entre as células — <InputActions/UI/SelectorLeft> e <InputActions/UI/SelectorRIght>. Injetar a droga — <InputActions/UI/EuthanasiaInject>
+23353.0	Os Infectados
+23353.1	Os deitados não têm salvação — só resta aliviar o sofrimento deles. Se eu ajudar na passagem, posso ficar com o tempo deles
+29367.0	Tome o Tempo Deles
+29367.1	Remédios de apatia me aproximam do objetivo. Remédios de mania me afastam. É preciso concluir a eutanásia antes que o pulso chegue a 200
+23134.0	Eutanásia
+23134.1	Exige os mesmos recursos que uso para combater minha própria mente
+66978.0	Prontuário
+66978.1	Os sintomas encontrados no corpo devem ser marcados no prontuário — só então você pode discuti-los com o paciente. Para abrir o prontuário, pressione <InputActions/UI/Tablet>
+32836.0	Sintomas
+32836.1	O corpo do doente apresenta tanto pistas quanto sintomas falsos. Cada sintoma deve ser examinado de perto, pressionando <InputActions/Weapon/Tags>
+61533.0	[Texto de Exemplo]\nExaminar os membros gasta tempo
+61533.1	[Texto de Exemplo]\nExaminar os membros gasta tempo
+74185.0	Melancolia
+74185.1	Com a apatia alta, o tempo, a vontade de viver e a amálgama escorrem pelos dedos. Sem amálgama, os outros dias da história ficam inacessíveis
+17227.0	Frenesi
+17227.1	A mania alta sobrecarrega o coração e leva rápido à morte. A velocidade aumenta, e a vida — derrete
+68183.0	Cruzando a Cidade
+68183.1	<InputActions/Weapon/Shoot> Escolher um distrito adiciona um ponto à rota. Para sair caminhando, pressione de novo
+75624.0	Cruzando a Cidade
+75624.1	Alguns distritos são perigosos — não dá para cruzá-los a passo rápido. Às vezes, o mais sensato é nem chegar perto
+34200.0	Cruzando a Cidade
+34200.1	Caminhar gasta tempo. O caminho direto é o mais rápido
+16449.0	
+16449.1	Minha decisão ecoa no futuro
+70009.0	Diagnóstico
+70009.1	A investigação revelou novos sintomas. Falta registrá-los no prontuário — <InputActions/UI/Tablet> — e fechar o diagnóstico
+51309.0	
+51309.1	Para compreender uma pessoa ou um objeto, é preciso chegar bem perto em estado de concentração
+30049.0	Foco da Infecção
+30049.1	Há um foco de infecção no distrito. Preciso encontrá-lo. Quanto mais alto o som do Protótipo, mais perto estou
+6385.0	Cidade Inquieta
+6385.1	Se eu entrar no arco sem desviar da <InputActions/UI/Map> rota, o resto do caminho passa sem sustos
+9842.0	Perigosos, mas Covardes
+9842.1	Seria bom <InputActions/Weapon/Reload> carregar o tambor com balas. Mas os locais não sabem se está carregado. Só veem o revólver quando ele está <InputActions/Weapon/Aim> apontado
+11461.0	Combate
