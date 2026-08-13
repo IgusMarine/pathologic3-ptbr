@@ -1,7 +1,7 @@
 17776.9	inverte o eixo vertical da câmera (empurrar para cima olha para baixo)
 17776.10	formato da interface principal (HUD): barras de apatia/mania, indicadores de saúde e amálgama
 17776.11	ajusta o campo de visão
-17776.12	mostrar dicas de controle no modo de pensamentos
+17776.12	mostrar dicas de controle no mapa mental
 17776.13	texto ampliado nos diálogos
 17776.14	ajusta a intensidade da tremedeira da câmera durante a corrida
 17776.15	mostra os slots de armas disponíveis na interface principal: ícones e munição restante
@@ -17,7 +17,7 @@
 25632.9	Inverter câmera
 25632.10	Posição do HUD
 25632.11	Campo de visão
-25632.12	Dicas nos pensamentos
+25632.12	Dicas no mapa mental
 25632.13	Texto grande
 25632.14	Intensidade do balanço da câmera
 25632.15	Mostrar slots de armas
