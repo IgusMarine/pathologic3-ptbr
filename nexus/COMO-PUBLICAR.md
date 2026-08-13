@@ -24,10 +24,22 @@ a outra: quem compara decide sozinho.
 
 **Mod name**
 ```
-Tradução PT-BR completa (Brazilian Portuguese)
+Traducao PT-BR completa (Complete Brazilian Portuguese)
 ```
-O trecho em inglês ajuda quem não fala português a entender do que se trata
-ao passar pela listagem.
+
+Atenção: o campo só aceita letras sem acento, números, espaço e `_ ' ( ) . -`
+Por isso "Traducao" vai sem cedilha. É a convenção no Nexus, e brasileiro lê
+sem estranhar (o outro mod PT-BR de lá se chama "Tradutor" justamente porque
+essa palavra não tem acento).
+
+`completa` é o que diferencia do mod que já existe. O trecho em inglês faz
+aparecer para quem busca sem falar português.
+
+Se preferir não mutilar a palavra, esta alternativa é toda sem acento e não
+parece errada:
+```
+Complete Brazilian Portuguese Translation (PT-BR)
+```
 
 **Summary** (aparece na listagem, é o que decide o clique)
 ```
