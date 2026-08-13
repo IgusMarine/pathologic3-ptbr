@@ -1,18 +1,8 @@
-TRADUÇÃO PT-BR — PATHOLOGIC 3
-=============================
+PATHOLOGIC 3 EM PORTUGUÊS BRASILEIRO
+====================================
 
-Tradução e localização não oficial para português brasileiro.
-Versão de teste.
-
-
-O QUE É
--------
-Este pacote contém APENAS o texto traduzido e um script que o aplica na
-sua cópia do jogo. Você precisa ter o Pathologic 3 instalado.
-
-Nada aqui substitui o jogo. O script altera os textos da sua própria
-instalação e guarda uma cópia de segurança antes de mexer em qualquer
-coisa.
+Tradução completa do jogo, feita por fã.
+São 63.703 falas: cada diálogo, cada anotação, cada tela de menu.
 
 
 COMO INSTALAR
@@ -20,69 +10,87 @@ COMO INSTALAR
 1. Instale o Python 3, se ainda não tiver:
       https://www.python.org/downloads/
       (marque "Add Python to PATH" durante a instalação)
-
-2. Abra o Prompt de Comando e instale a biblioteca necessária:
-
-      pip install UnityPy
-
+2. Abra o Prompt de Comando e rode:  pip install UnityPy
 3. Feche o jogo, se estiver aberto.
-
 4. Entre na pasta deste pacote e rode:
-
       python aplicar_traducao.py
 
    O script procura o jogo sozinho. Se não achar, passe o caminho:
-
       python aplicar_traducao.py "D:\SteamLibrary\steamapps\common\Pathologic 3"
 
-5. Espere terminar (reescreve um arquivo de ~780 MB, leva alguns minutos)
-   e abra o jogo.
+A instalação leva alguns minutos porque reescreve um arquivo grande do
+jogo. Ele fica um bom tempo parado na última mensagem. É normal, não
+travou.
+
+Antes de mexer em qualquer coisa, o script guarda uma cópia de segurança.
 
 
-COMO DESINSTALAR
+PARA DESINSTALAR
 ----------------
       python aplicar_traducao.py --restaurar
 
-Isso devolve o arquivo original, que foi guardado como
-resources.assets.bak dentro da pasta do jogo.
+Se a cópia de segurança tiver se perdido, o Steam resolve:
+   Biblioteca > clique direito no jogo > Propriedades >
+   Arquivos Instalados > Verificar integridade dos arquivos
 
-Se algo der errado e o backup tiver se perdido, o Steam resolve:
-   Biblioteca > clique direito no jogo > Propriedades > Arquivos
-   Instalados > Verificar integridade dos arquivos do jogo
+
+COMO ESTA TRADUÇÃO FOI FEITA
+----------------------------
+Foi feita com ajuda de inteligência artificial, e vale explicar como,
+porque não é tradução automática.
+
+Tradução automática é jogar o texto num tradutor e colar o resultado.
+Aqui a IA foi ferramenta de trabalho, dentro de um processo montado antes
+de a primeira linha ser traduzida.
+
+Primeiro veio a pesquisa: entender quem é cada personagem, como cada um
+fala, e o que os nomes querem dizer no original. Muita coisa em Pathologic
+tem sentido escondido, e sem saber disso a tradução vira som sem
+significado.
+
+Depois veio o glossário, com 105 termos fixados: nomes de personagens, de
+lugares, de facções, de doenças. Cada um com uma decisão registrada e o
+motivo dela. Existe uma verificação automática que recusa o resultado se
+algum termo tiver escapado.
+
+A base é o russo, não o inglês. O jogo é russo, e a versão em inglês já é
+uma tradução, com escolhas próprias e alguns erros. Traduzir a partir dela
+seria copiar problema dos outros.
+
+Por fim, muita revisão, procurando o que soasse traduzido em vez de
+escrito: fala fora de lugar, nome que muda de uma cena para outra, piada
+que morreu no caminho.
+
+O objetivo não era traduzir palavra por palavra. Era fazer o texto soar
+como se tivesse sido escrito em português desde o começo.
 
 
 AVISOS
 ------
 - Uma atualização do jogo sobrescreve a tradução. É só rodar de novo.
-- Se o jogo atualizar e mudar os textos, o script avisa que nenhum texto
+- Se o jogo atualizar e mudar os textos, o programa avisa que nenhum texto
   foi trocado e não altera nada.
 - Jogue com backup do save, por precaução.
 
 
-O QUE OLHAR DURANTE O TESTE
----------------------------
-O que mais ajuda não é erro de português — é o que a tela mostra:
+ENCONTROU ALGUM PROBLEMA?
+-------------------------
+O que mais ajuda não é erro de português. É o que aparece na tela:
 
-- texto cortado ou estourando a caixa de diálogo
-- botão com texto que não cabe
-- fala que parece fora de lugar na conversa
+- texto saindo da caixa de diálogo
+- botão com palavra que não cabe
+- fala que parece deslocada na conversa
 - nome de personagem ou lugar que muda de uma cena para outra
-- qualquer coisa que soe traduzida em vez de escrita em português
 
-Anote o momento (dia do jogo, personagem, cena) — com isso dá para achar
-a linha exata.
+Anote o dia do jogo, o personagem e a cena. Com isso dá para achar a linha
+exata.
 
 
 CRÉDITOS
 --------
-Tradução: Igor
-Jogo: Ice-Pick Lodge / Hypetrain Digital
+Tradução e localização: Igor
+Jogo: Ice-Pick Lodge e Hypetrain Digital
 
-A terminologia desta tradução foi alinhada com a tradução pt-BR de
-Pathologic 2 & Marble Nest, feita por Yuri Beira. Os dois jogos se passam
-na mesma cidade, com o mesmo elenco — quem jogou o 2 em português vai
-encontrar aqui os mesmos nomes de lugares, facções e personagens.
-
-Esta é uma tradução feita por fã, sem vínculo com os desenvolvedores nem
-com a distribuidora. Distribua apenas o pacote de tradução, nunca os
-arquivos do jogo.
+Tradução feita por fã, sem fins lucrativos e sem vínculo com os
+desenvolvedores ou a distribuidora. Distribua apenas o pacote de tradução,
+nunca os arquivos do jogo.

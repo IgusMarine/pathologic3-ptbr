@@ -2,7 +2,7 @@
 """Instalador da traducao pt-BR de Pathologic 3.
 
 Faz o mesmo que o aplicar_traducao.py de linha de comando, mas com janela:
-acha o jogo sozinho, mostra o que esta fazendo, e da' progresso de verdade —
+acha o jogo sozinho, mostra o que esta fazendo, e da' progresso de verdade:
 a operacao reescreve um arquivo de 780 MB e leva minutos, e ficar em silencio
 esse tempo todo parece travamento.
 
@@ -15,7 +15,7 @@ from PIL import Image
 
 # ---------------------------------------------------------------- recursos --
 def recurso(nome):
-    """Caminho de um arquivo empacotado — funciona solto e dentro do .exe."""
+    """Caminho de um arquivo empacotado. Funciona solto e dentro do .exe."""
     base = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
     return os.path.join(base, nome)
 
@@ -65,7 +65,7 @@ def achar_jogo(manual=None):
 class App(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("Pathologic 3 — Instalar Tradução")
+        self.title("Pathologic 3 em português")
         self.geometry("1180x820")
         self.resizable(False, False)
         self.configure(fg_color=COR_FUNDO)
@@ -98,19 +98,19 @@ class App(ctk.CTk):
         abre = ctk.CTkFrame(p, fg_color="transparent")
         abre.pack(anchor="w", padx=44, fill="x", pady=(0, 20))
         # Nada de "do prologo ao decimo segundo dia": os arquivos do dia 12
-        # sao Final e VillainSpeech — dizer onde a historia termina e' spoiler,
-        # e o primeiro item da lista ja' garante que esta completo.
+        # sao Final e VillainSpeech, e dizer onde a historia termina e'
+        # spoiler. O primeiro item da lista ja' garante que esta completo.
         ctk.CTkLabel(abre, width=490, justify="left", wraplength=490, anchor="w",
                      font=("Segoe UI", 16), text_color="#b9aca2",
-                     text="A cidade inteira em português — cada fala, cada "
+                     text="A cidade inteira em português. Cada fala, cada "
                           "anotação, cada tela.").pack(anchor="w")
 
         for forte, resto in [
             ("63.703 falas",        "o jogo todo, sem sobra em inglês"),
-            ("Traduzida do russo",  "direto do original, sem intermediário"),
-            ("Nomes em português",  "nada de apelido deixado em inglês"),
-            ("«o senhor» e «você»", "seguem a distinção do original"),
-            ("105 termos travados", "o mesmo nome do começo ao fim"),
+            ("Feita com pesquisa",  "não é tradução automática"),
+            ("Baseada no russo",    "o original, não a versão inglesa"),
+            ("Nomes em português",  "apelido não fica em inglês"),
+            ("105 termos fixados",  "o mesmo nome do começo ao fim"),
         ]:
             li = ctk.CTkFrame(p, fg_color="transparent")
             li.pack(anchor="w", padx=44, fill="x", pady=4)
@@ -252,7 +252,7 @@ class App(ctk.CTk):
             self.barra.set(0.05)
             shutil.copy2(self.asset, bak)
         else:
-            self.status("Cópia de segurança já existe — preservada.")
+            self.status("Cópia de segurança já existe, preservada.")
         self.barra.set(0.15)
 
         self.status("Lendo os arquivos do jogo… (demora um pouco)")
@@ -280,15 +280,15 @@ class App(ctk.CTk):
                 self.status(f"Aplicando os textos…  {trocados} de {alvo}")
 
         if trocados == 0:
-            self.status("Nenhum texto foi trocado — esta versão do jogo é "
+            self.status("Nenhum texto foi trocado. Esta versão do jogo é "
                         "diferente da que a tradução usa. Nada foi alterado.",
                         COR_ERRO)
             self.barra.pack_forget()
             return
 
         self.barra.set(0.68)
-        self.status(f"{trocados} textos aplicados. Gravando os 780 MB — "
-                    "esta é a parte demorada, pode levar alguns minutos.")
+        self.status(f"{trocados} textos aplicados. Gravando o arquivo do jogo. "
+                    "Esta é a parte demorada, pode levar alguns minutos.")
         tmp = self.asset + ".novo"
         with open(tmp, "wb") as fh:
             fh.write(env.file.save())
@@ -297,7 +297,7 @@ class App(ctk.CTk):
         shutil.move(tmp, self.asset)
 
         self.barra.set(1.0)
-        self.status(f"Pronto. {trocados} textos traduzidos — pode abrir o jogo.\n"
+        self.status(f"Pronto. {trocados} textos traduzidos. Pode abrir o jogo.\n"
                     "Se algo der errado, use «Restaurar o original».", COR_OK)
         self.btn.configure(text="Instalado ✓", fg_color=COR_OK)
 
