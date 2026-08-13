@@ -47,7 +47,7 @@
 76364.1	[Texto de Exemplo]\nIndicador no canto inferior esquerdo
 24645.0	Decreto de Vacinação
 24645.1	Se você diagnosticar corretamente todos os pacientes de um dia, receberá um decreto de vacinação. Se errar o diagnóstico de um único paciente, não receberá o decreto de vacinação — você precisará refazer o dia e corrigir seu erro
-68923.0	Entrevista Repetida
+68923.0	Segunda entrevista
 68923.1	Sintomas incorretos foram selecionados, interferindo no diagnóstico. Abra o Prontuário com <InputActions/UI/Tablet> e tente novamente
 69549.0	Ainda há pontos de interesse não explorados
 15216.0	Protocolo 10

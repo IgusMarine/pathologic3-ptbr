@@ -16,7 +16,7 @@
 12671.16	simula a dispersão de luz subsuperficial em materiais, melhorando o realismo
 12671.17	adiciona desfoque sutil ao movimento rápido da câmera e de objetos, melhorando a fluidez
 12671.18	ajusta a intensidade do desfoque de movimento; reduz o FPS em valores altos
-54406.0	Renderização Básica
+54406.0	Parâmetros básicos
 54406.1	Escala de Resolução
 54406.2	Anti-aliasing
 54406.3	Upscaling
@@ -90,7 +90,7 @@
 70292.21	Abrir Dossiê <InputActions/UI/CharacterScreen>
 70292.22	Dossiê adicionado
 40146.0	Gulnara Samigullina
-40146.1	Programadora, Roteirista de Lógica de Jogo
+40146.1	Programadora, roteirista de lógica de jogo
 66360.0	PCF
 66360.1	PCSS
 36217.0	Variante 1

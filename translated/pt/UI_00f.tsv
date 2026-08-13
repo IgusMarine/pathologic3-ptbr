@@ -9,7 +9,7 @@
 63346.1	Para sair do distrito, encontre arcos com relógios
 67175.0	Nem todos os sintomas foram selecionados.
 67175.1	Examine o paciente com atenção, registre os sintomas ausentes no Prontuário e pergunte sobre eles
-75115.0	Segunda entrevista com o paciente
+75115.0	Segunda entrevista
 75115.1	Você registrou um sintoma sobre o qual pode perguntar ao paciente.
 57570.0	Olhar Atento
 57570.1	Alguns objetos podem ser úteis. Posso identificá-los facilmente se eu <InputActions/Weapon/Tags> me concentrar
@@ -33,7 +33,7 @@
 50151.1	Uma doença afeta vários sistemas do corpo. O microscópio ajuda a identificar qual órgão está infectado
 49952.0	[Texto de Exemplo]\nConfirmar Diagnóstico
 49952.1	[Texto de Exemplo]\nConfirmar Diagnóstico
-57275.0	Manual de Referência
+57275.0	Compêndio
 57275.1	O botão ao lado do nome de uma doença mostrará uma descrição detalhada: modos de transmissão, grupos de risco, e assim por diante. Isso ajudará a determinar o diagnóstico quando houver dúvidas
 67267.0	Diagnósticos
 67267.1	<i>Pressione <InputActions/UI/TabletDiagnosis> para selecionar um diagnóstico. Confirme pressionando <InputActions/UI/TabletDiagnosis> novamente</i>

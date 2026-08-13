@@ -15,7 +15,7 @@
 23651.1	Apenas histórias contadas por inteiro entram no relatório do interrogatório. Se uma história for abandonada no meio, ela deve ser recontada do início
 77283.0	Outros Eventos
 77283.1	As consequências das minhas decisões sempre me levarão a acabar na prisão. Preciso agir de outro jeito. Ao encontrar o pensamento final da cadeia, posso <InputActions/Hints/MindQuestResetHint> mudar os eventos antes de começar o dia
-34962.0	Outra Versão
+34962.0	Outros Eventos
 34962.1	Posso cancelar eventos passados. <i>Clique em <InputActions/Hints/MindQuestResetHint> um nó em forma de engrenagem. Ele ficará vermelho, significando que a cadeia de eventos que leva àquele nó será desfeita quando o dia começar. Outras pessoas esquecerão o que foi dito, artefatos obtidos nessa história serão removidos de mim. </i> É crucial cancelar a fuga fracassada no Dia 4, senão acordarei na prisão de novo amanhã
 59554.0	Quatro Bolsos
 59554.1	Melhor guardar consumíveis aqui. De cada bolso <InputActions/Inventory/NextSlot>/<InputActions/Inventory/PrevSlot> posso usar itens rapidamente <InputActions/Inventory/UseSelectedSlot>
