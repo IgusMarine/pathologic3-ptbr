@@ -8,19 +8,38 @@ São 63.703 falas: cada diálogo, cada anotação, cada tela de menu.
 COMO INSTALAR
 -------------
 1. Feche o jogo, se estiver aberto.
-2. Dê dois cliques em  Instalar-Traducao-PTBR.exe
+2. Entre na pasta "Instalar-Traducao-PTBR" e dê dois cliques em
+   Instalar-Traducao-PTBR.exe
 3. Confira se a pasta do jogo que apareceu está certa. Se o programa não
    achou sozinho, clique em "Procurar" e aponte a pasta que contém
    Pathologic3_Data.
 4. Clique em "Instalar tradução" e espere.
 
-Não precisa instalar Python nem nada. Está tudo dentro do programa.
+A pasta precisa ficar inteira, do jeito que veio no .zip. Você pode movê-la
+para onde quiser, mas não tire arquivos de dentro dela.
 
 A instalação leva alguns minutos porque reescreve um arquivo grande do
 jogo. A barra fica bastante tempo na última etapa. É normal, não travou.
 
 Antes de mexer em qualquer coisa, o programa guarda uma cópia de
 segurança.
+
+
+POR QUE O ÍCONE É O DA LINGUAGEM PYTHON
+---------------------------------------
+Porque o programa não é um executável compilado por mim: é o interpretador
+oficial do Python, baixado do python.org, assinado digitalmente pela Python
+Software Foundation, apenas renomeado. O código da tradução está solto na
+pasta app\, em texto puro, aberto para quem quiser ler antes de rodar.
+
+Foi feito assim de propósito. A versão anterior era empacotada, e alguns
+antivírus marcavam o arquivo por engano: não pelo que o programa faz, mas
+pelo jeito como estava empacotado. Aqui não há nada comprimido nem que se
+autoextraia, então não sobra nada para interpretar errado.
+
+Para conferir: clique com o botão direito em Instalar-Traducao-PTBR.exe,
+Propriedades, aba Assinaturas Digitais. Deve aparecer "Python Software
+Foundation".
 
 
 PARA DESINSTALAR
@@ -67,11 +86,8 @@ como se tivesse sido escrito em português desde o começo.
 
 SE O ANTIVÍRUS RECLAMAR
 -----------------------
-Pode acontecer. Programas feitos assim são confundidos com frequência,
-mesmo sem nada de errado. É falso positivo.
-
-Se preferir não liberar no antivírus, use o método manual, na pasta
-"modo-manual":
+Não deve acontecer, porque o executável é o Python oficial assinado. Mas se
+acontecer, use o método manual, na pasta "modo-manual":
 
    1. Instale o Python 3:  https://www.python.org/downloads/
       (marque "Add Python to PATH" durante a instalação)

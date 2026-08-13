@@ -71,3 +71,14 @@ Thumbs.db
 # Imagens do anuncio no Nexus: derivadas da capa da Ice-Pick Lodge
 nexus/imagem-principal.jpg
 nexus/captura-instalador.png
+
+# Pastas de teste dos empacotadores (Nuitka, Python embutido, cx_Freeze):
+# centenas de MB de distribuicao Python, reconstruiveis
+installer/_teste_*/
+installer/versao.txt
+Pathologic3-Traducao-PTBR*/
+
+# Prints do jogo: imagem da Ice-Pick Lodge, vao so' para a pagina do Nexus
+nexus/Screenshots/
+nexus/prints-prontos/
+nexus/banner-1300x372.jpg
