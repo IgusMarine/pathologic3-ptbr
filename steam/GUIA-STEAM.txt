@@ -1,0 +1,41 @@
+[h1]O jogo inteiro em português[/h1]
+Tradução completa, gratuita e feita por fã: [b]63.703 falas[/b] — cada diálogo, cada anotação, cada tela de menu. Nada fica em inglês.
+
+Feita a partir do russo, o idioma original do jogo, com um glossário fixo de 105 termos para os nomes não mudarem de uma cena para outra, e revisada em várias passadas. Sim, com ajuda de inteligência artificial — e com o processo documentado e o código aberto, para quem quiser conferir antes de instalar.
+
+[h1]Onde baixar[/h1]
+[list]
+[*][url=https://www.nexusmods.com/pathologic3/mods/28]Nexus Mods[/url] — versão em script, sem executável
+[*][url=https://github.com/IgusMarine/pathologic3-ptbr/releases]GitHub (Releases)[/url] — instalador gráfico de dois cliques e a mesma versão em script
+[/list]
+
+[h1]Instalação com o instalador gráfico[/h1]
+[olist]
+[*]Baixe o [b]Pathologic3-Traducao-PTBR.zip[/b] no GitHub.
+[*]Extraia a pasta inteira e execute o [b]Instalar-Traducao-PTBR.exe[/b] de dentro dela. A pasta precisa ficar junta, do jeito que veio.
+[*]Confira a pasta do jogo que ele detectou e clique em [b]Instalar tradução[/b].
+[/olist]
+Não precisa instalar Python nem nada. O programa acha o jogo sozinho, guarda uma cópia de segurança antes de mexer em qualquer coisa, e tem o botão [b]Restaurar o original[/b] para desfazer.
+
+O executável é o interpretador oficial do Python, assinado digitalmente pela Python Software Foundation — por isso o ícone dele é o do Python. O pacote passa limpo em todos os motores do VirusTotal.
+
+[h1]Instalação pela versão em script[/h1]
+Para quem prefere não rodar executável nenhum:
+[olist]
+[*]Instale o Python 3 ([url=https://www.python.org/downloads/]python.org[/url]) marcando a caixa [b]Add Python to PATH[/b].
+[*]Abra o Prompt de Comando e rode: [b]pip install UnityPy[/b]
+[*]Entre na pasta do mod e rode: [b]python aplicar_traducao.py[/b]
+[/olist]
+Para desfazer: [b]python aplicar_traducao.py --restaurar[/b]
+
+[h1]Perguntas rápidas[/h1]
+[b]O jogo atualizou e voltou para o inglês.[/b] Normal: a atualização sobrescreve o arquivo de textos. É só rodar o instalador de novo.
+
+[b]Algo deu errado.[/b] O instalador guarda uma cópia de segurança (resources.assets.bak). Use "Restaurar o original", ou verifique a integridade dos arquivos pelo próprio Steam.
+
+[b]É seguro?[/b] O código é aberto e auditável no [url=https://github.com/IgusMarine/pathologic3-ptbr]GitHub[/url], e o pacote passa limpo em todos os antivírus do VirusTotal.
+
+[h1]Encontrou um erro na tradução?[/h1]
+O que mais ajuda: texto saindo da caixa de diálogo, botão com palavra cortada, nome que muda de uma cena para outra. Anote o [b]dia do jogo, o personagem e a cena[/b] e comente aqui ou na página do Nexus. Com isso dá para achar a linha exata e corrigir.
+
+[i]Tradução de fã, sem fins lucrativos e sem vínculo com a Ice-Pick Lodge ou a Hypetrain Digital. Distribua apenas o pacote da tradução, nunca os arquivos do jogo.[/i]
