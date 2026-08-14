@@ -146,7 +146,7 @@ continua sendo o principal.
 | File name | `Arquivo pronto - copiar e substituir (Update 6)` |
 | File version | `1.0` |
 | Category | **Optional files** |
-| Arquivo | `Pathologic3-Traducao-PTBR-Arquivo-Pronto.zip` (396 MB) |
+| Arquivo | `Pathologic3-Traducao-PTBR-Arquivo-Pronto.zip` (378 MB) |
 | Versão do jogo | **Update 6** = build Steam 22362178, publicado em 17/03/2026 |
 
 Conferido em 14/08/2026: 22362178 ainda é o build público atual, e é o mesmo
