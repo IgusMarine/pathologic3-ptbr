@@ -6,13 +6,19 @@ Tradução completa do jogo. São [b]63.703 falas[/b]: cada diálogo, cada anota
 
 [size=4][b]Como instalar[/b][/size]
 
-Baixe o arquivo e extraia a pasta inteira onde quiser. Entre nela e dê dois cliques em [b]Instalar-Traducao-PTBR.exe[/b].
+São três passos, feitos uma vez só:
 
-A pasta precisa ficar junta, do jeito que veio: o programa usa os arquivos que estão ao lado dele. Não precisa instalar Python nem nenhuma outra coisa. O programa encontra o jogo sozinho, guarda uma cópia de segurança antes de mexer em qualquer coisa, e tem um botão para desfazer.
+1. Instale o Python 3 ([url=https://www.python.org/downloads/]python.org[/url]) e marque a caixa [b]"Add Python to PATH"[/b] durante a instalação.
+2. Abra o Prompt de Comando (tecla Windows, digite cmd, Enter) e rode: [b]pip install UnityPy[/b]
+3. Entre na pasta do mod e rode: [b]python aplicar_traducao.py[/b]
 
-A instalação leva alguns minutos porque reescreve um arquivo grande do jogo. A barra fica bastante tempo na última etapa. É normal, não travou.
+Para entrar na pasta, digite [b]cd[/b] seguido de espaço e arraste a pasta para dentro da janela do Prompt.
 
-[b]Para desinstalar:[/b] abra o programa de novo e clique em "Restaurar o original".
+O script encontra o jogo sozinho e guarda uma cópia de segurança antes de mexer em qualquer coisa. Ele fica alguns minutos parado na última mensagem, porque reescreve um arquivo grande do jogo. É normal, não travou.
+
+[b]Para desinstalar:[/b] [b]python aplicar_traducao.py --restaurar[/b]
+
+[i]Um instalador gráfico de dois cliques, sem precisar de Python, está pronto e em análise pela moderação da plataforma. Assim que for liberado, aparece aqui como arquivo adicional.[/i]
 
 [line]
 
