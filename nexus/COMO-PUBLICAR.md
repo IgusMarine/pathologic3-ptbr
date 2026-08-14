@@ -133,3 +133,42 @@ já mudam muito a impressão de quem chega.
 **A primeira semana traz os relatos que importam.** Texto estourando caixa,
 botão que não cabe, nome trocado. Anote tudo e mande para cá que a gente
 corrige e sobe a 1.1.
+
+---
+
+## Arquivo opcional: o arquivo pronto (copiar e substituir)
+
+Sobe na aba **Files** do mod já publicado, como arquivo adicional — o script
+continua sendo o principal.
+
+| campo | valor |
+|---|---|
+| File name | `Arquivo pronto - copiar e substituir (13-08-2026)` |
+| File version | `1.0` |
+| Category | **Optional files** |
+| Arquivo | `Pathologic3-Traducao-PTBR-Arquivo-Pronto.zip` (396 MB) |
+
+**File description** (o campo aceita 255 caracteres; este tem 254):
+
+```
+Para quem não quer usar Python: o arquivo de textos do jogo já traduzido, só copiar e substituir (instruções no LEIA-ME). Vale para a versão do jogo de 13/08/2026. Se o jogo atualizou depois, não use — baixe o script, que confere a versão antes de mexer.
+```
+
+**Changelog** (se o formulário pedir):
+
+```
+Primeira versão do arquivo pronto. Mesma tradução 1.0 do script, já aplicada; corresponde ao jogo de 13/08/2026.
+```
+
+**Marque "Remove the 'Download with manager' button"**: este arquivo é para
+colocar na pasta na mão; o Vortex não saberia onde pôr e instalaria errado.
+
+**Depois do upload, atualize o campo Description da página** com o
+`DESCRICAO.bbcode.txt` desta pasta — ele já apresenta os dois jeitos de
+instalar e explica por que um download é pequeno e o outro é grande.
+
+**A cada atualização do jogo**: gerar o arquivo de novo (`tools/apply_pt.py`
++ `tools/inject_pt.py`), zipar com o LEIA-ME atualizado, subir como novo
+arquivo opcional com a data nova no nome e mandar o antigo para
+**Old files**. A data no nome é o que evita usuário aplicando arquivo velho
+em jogo novo.

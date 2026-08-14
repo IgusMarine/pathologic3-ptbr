@@ -6,7 +6,15 @@ Tradução completa do jogo. São [b]63.703 falas[/b]: cada diálogo, cada anota
 
 [size=4][b]Como instalar[/b][/size]
 
-São três passos, feitos uma vez só:
+Há dois jeitos. Os dois chegam na mesma tradução.
+
+[b]Jeito 1 — arquivo pronto (sem instalar nada)[/b]
+
+Na aba Files, baixe o arquivo opcional [i]Arquivo pronto[/i]. Feche o jogo, renomeie o [b]resources.assets[/b] original para [b]resources.assets.original[/b] e copie o arquivo do pacote no lugar dele. O LEIA-ME de dentro mostra o passo a passo com os caminhos. Para desfazer, é só renomear de volta.
+
+Atenção à data no nome do arquivo: ele corresponde ao jogo daquele dia. Se o jogo recebeu atualização depois dela, não use — vá de jeito 2, que confere antes de mexer.
+
+[b]Jeito 2 — pelo script (confere a versão e sobrevive a atualização)[/b]
 
 1. Instale o Python 3 ([url=https://www.python.org/downloads/]python.org[/url]) e marque a caixa [b]"Add Python to PATH"[/b] durante a instalação.
 2. Abra o Prompt de Comando (tecla Windows, digite cmd, Enter) e rode: [b]pip install UnityPy[/b]
@@ -14,11 +22,11 @@ São três passos, feitos uma vez só:
 
 Para entrar na pasta, digite [b]cd[/b] seguido de espaço e arraste a pasta para dentro da janela do Prompt.
 
-O script encontra o jogo sozinho e guarda uma cópia de segurança antes de mexer em qualquer coisa. Ele fica alguns minutos parado na última mensagem, porque reescreve um arquivo grande do jogo. É normal, não travou.
+O script encontra o jogo sozinho, confere se os textos são os esperados e guarda uma cópia de segurança antes de mexer em qualquer coisa. Ele fica alguns minutos parado na última mensagem, porque reescreve um arquivo grande do jogo. É normal, não travou.
 
 [b]Para desinstalar:[/b] [b]python aplicar_traducao.py --restaurar[/b]
 
-[i]Um instalador gráfico de dois cliques, sem precisar de Python, está pronto e em análise pela moderação da plataforma. Assim que for liberado, aparece aqui como arquivo adicional.[/i]
+[i]Prefere um instalador gráfico de dois cliques? Ele está na aba Releases do [url=https://github.com/IgusMarine/pathologic3-ptbr]GitHub do projeto[/url], compilado a partir do mesmo código aberto.[/i]
 
 [line]
 
@@ -55,13 +63,11 @@ O objetivo não era traduzir palavra por palavra. Era localizar, ou seja, fazer 
 
 [size=4][b]Coisas que vale saber[/b][/size]
 
-[b]Este mod não substitui arquivos do jogo por outros prontos.[/b] Ele altera a sua própria instalação e guarda backup. Por isso o download é pequeno, e por isso dá para desfazer sem baixar nada de novo.
+[b]Por que um download é pequeno e o outro é grande.[/b] O script altera a sua própria instalação e guarda backup — por isso pesa poucos megas e desfaz sem baixar nada de novo. O arquivo pronto é o arquivo de textos do jogo já traduzido — por isso pesa centenas, e vale para uma versão específica do jogo. Na dúvida, vá de script.
 
-[b]O executável é o Python oficial, assinado digitalmente.[/b] O arquivo que você executa é o interpretador do python.org, assinado pela Python Software Foundation, apenas renomeado. Por isso o ícone dele é o do Python. Todo o código da tradução fica ao lado, em texto aberto, na pasta app. Para conferir: botão direito no .exe, Propriedades, aba Assinaturas Digitais.
+[b]Dá para ler tudo antes de rodar.[/b] A versão em script não traz executável nenhum: é código em texto aberto, o mesmo que está publicado no [url=https://github.com/IgusMarine/pathologic3-ptbr]GitHub[/url].
 
-[b]Se o antivírus reclamar[/b], é falso positivo: o pacote passa limpo em todos os motores do VirusTotal. E ele traz uma pasta [i]modo-manual[/i], com um script de linha de comando que faz exatamente a mesma coisa, caso você prefira não rodar executável nenhum.
-
-[b]Uma atualização do jogo desfaz a tradução.[/b] É só rodar o instalador de novo. Se o jogo mudar os textos, o programa avisa que nada foi trocado em vez de corromper a instalação.
+[b]Uma atualização do jogo desfaz a tradução.[/b] Rode o script de novo: se o jogo tiver mudado os textos, ele avisa em vez de corromper a instalação. E não reaproveite um arquivo pronto de antes da atualização — espere a versão nova dele aparecer aqui.
 
 [line]
 
