@@ -3,10 +3,18 @@
 Tradução completa do jogo, feita por fã. São 63.703 falas: cada diálogo,
 cada anotação, cada tela de menu.
 
+## Onde baixar
+
+O mod está publicado no
+[Nexus Mods](https://www.nexusmods.com/pathologic3/mods/28), na versão em
+script. Aqui no GitHub, a [aba Releases](../../releases) tem as duas formas:
+o instalador gráfico e a mesma versão em script.
+
 ## Como instalar
 
-Baixe o instalador na [aba Releases](../../releases) e dê dois cliques. Não
-precisa instalar Python nem nada, está tudo dentro do programa.
+Pelo instalador gráfico: baixe, extraia a pasta inteira e dê dois cliques no
+executável de dentro dela. A pasta precisa ficar junta, do jeito que veio.
+Não precisa instalar Python nem nada, está tudo dentro do programa.
 
 Ele encontra o jogo sozinho, guarda uma cópia de segurança antes de mexer em
 qualquer coisa, e tem um botão para desfazer.
