@@ -51,9 +51,9 @@ O objetivo não era traduzir palavra por palavra. Era localizar, ou seja, fazer 
 
 [b]Este mod não substitui arquivos do jogo por outros prontos.[/b] Ele altera a sua própria instalação e guarda backup. Por isso o download é pequeno, e por isso dá para desfazer sem baixar nada de novo.
 
-[b]O Windows pode mostrar o aviso azul do SmartScreen[/b] na primeira execução, porque o programa não tem assinatura digital. Clique em "Mais informações" e depois em "Executar assim mesmo".
+[b]O executável é o Python oficial, assinado digitalmente.[/b] O arquivo que você executa é o interpretador do python.org, assinado pela Python Software Foundation, apenas renomeado. Por isso o ícone dele é o do Python. Todo o código da tradução fica ao lado, em texto aberto, na pasta app. Para conferir: botão direito no .exe, Propriedades, aba Assinaturas Digitais.
 
-[b]Se o antivírus reclamar[/b], é falso positivo. Programas feitos assim são confundidos com frequência. O pacote traz uma pasta [i]modo-manual[/i] com um script de linha de comando que faz exatamente a mesma coisa, caso você prefira.
+[b]Se o antivírus reclamar[/b], é falso positivo: o pacote passa limpo em todos os motores do VirusTotal. E ele traz uma pasta [i]modo-manual[/i], com um script de linha de comando que faz exatamente a mesma coisa, caso você prefira não rodar executável nenhum.
 
 [b]Uma atualização do jogo desfaz a tradução.[/b] É só rodar o instalador de novo. Se o jogo mudar os textos, o programa avisa que nada foi trocado em vez de corromper a instalação.
 
