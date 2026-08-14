@@ -1,0 +1,37 @@
+PATHOLOGIC 3 EM PORTUGUÊS BRASILEIRO — ARQUIVO PRONTO
+======================================================
+
+Este pacote traz o arquivo de textos do jogo já traduzido (63.703 falas).
+Corresponde ao UPDATE 6 do jogo (build Steam 22362178, de 17/03/2026),
+que é a versão atual do jogo na data deste pacote (14/08/2026).
+
+COMO INSTALAR
+-------------
+1. Feche o jogo.
+2. Abra a pasta do jogo:
+      Steam > clique direito no jogo > Gerenciar > Ver arquivos locais
+   e entre em  Pathologic3_Data
+3. RENOMEIE o arquivo original  resources.assets  para
+      resources.assets.original
+   (não apague: é a sua volta atrás instantânea)
+4. Copie para lá o  resources.assets  deste pacote.
+5. Abra o jogo. Deve estar em português.
+
+PARA DESFAZER
+-------------
+Apague o arquivo copiado e renomeie  resources.assets.original  de volta
+para  resources.assets. Ou use o Steam: Propriedades > Arquivos Instalados
+> Verificar integridade dos arquivos.
+
+SE O JOGO RECEBEU UPDATE DEPOIS DO UPDATE 6
+-------------------------------------------
+NÃO use este arquivo: sobrescrever um jogo atualizado com um arquivo antigo
+pode quebrar o jogo, não só a tradução. Use a versão em script da página do
+mod, que detecta a diferença e se recusa a mexer — ou espere este pacote
+ser atualizado.
+
+CRÉDITOS
+--------
+Tradução e localização: Igor
+Jogo: Ice-Pick Lodge e Hypetrain Digital
+Tradução de fã, sem fins lucrativos.

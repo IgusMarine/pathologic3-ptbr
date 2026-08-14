@@ -12,7 +12,7 @@ Há dois jeitos. Os dois chegam na mesma tradução.
 
 Na aba Files, baixe o arquivo opcional [i]Arquivo pronto[/i]. Feche o jogo, renomeie o [b]resources.assets[/b] original para [b]resources.assets.original[/b] e copie o arquivo do pacote no lugar dele. O LEIA-ME de dentro mostra o passo a passo com os caminhos. Para desfazer, é só renomear de volta.
 
-Atenção à data no nome do arquivo: ele corresponde ao jogo daquele dia. Se o jogo recebeu atualização depois dela, não use — vá de jeito 2, que confere antes de mexer.
+Atenção à versão no nome do arquivo (ex.: Update 6): é para ela que o pacote serve. Se o jogo recebeu update mais novo, não use — vá de jeito 2, que confere antes de mexer.
 
 [b]Jeito 2 — pelo script (confere a versão e sobrevive a atualização)[/b]
 

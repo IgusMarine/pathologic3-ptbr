@@ -143,21 +143,25 @@ continua sendo o principal.
 
 | campo | valor |
 |---|---|
-| File name | `Arquivo pronto - copiar e substituir (13-08-2026)` |
+| File name | `Arquivo pronto - copiar e substituir (Update 6)` |
 | File version | `1.0` |
 | Category | **Optional files** |
 | Arquivo | `Pathologic3-Traducao-PTBR-Arquivo-Pronto.zip` (396 MB) |
+| Versão do jogo | **Update 6** = build Steam 22362178, publicado em 17/03/2026 |
 
-**File description** (o campo aceita 255 caracteres; este tem 254):
+Conferido em 14/08/2026: 22362178 ainda é o build público atual, e é o mesmo
+da instalação local da qual o arquivo foi gerado.
+
+**File description** (o campo aceita 255 caracteres; este tem 252):
 
 ```
-Para quem não quer usar Python: o arquivo de textos do jogo já traduzido, só copiar e substituir (instruções no LEIA-ME). Vale para a versão do jogo de 13/08/2026. Se o jogo atualizou depois, não use — baixe o script, que confere a versão antes de mexer.
+Para quem não quer usar Python: o arquivo de textos do jogo já traduzido, só copiar e substituir (instruções no LEIA-ME). Vale para o Update 6 do jogo (build 22362178, o atual). Se sair update novo, não use — baixe o script, que confere antes de mexer.
 ```
 
 **Changelog** (se o formulário pedir):
 
 ```
-Primeira versão do arquivo pronto. Mesma tradução 1.0 do script, já aplicada; corresponde ao jogo de 13/08/2026.
+Primeira versão do arquivo pronto. Mesma tradução 1.0 do script, já aplicada; corresponde ao Update 6 do jogo (build 22362178).
 ```
 
 **Marque "Remove the 'Download with manager' button"**: este arquivo é para
@@ -169,6 +173,11 @@ instalar e explica por que um download é pequeno e o outro é grande.
 
 **A cada atualização do jogo**: gerar o arquivo de novo (`tools/apply_pt.py`
 + `tools/inject_pt.py`), zipar com o LEIA-ME atualizado, subir como novo
-arquivo opcional com a data nova no nome e mandar o antigo para
-**Old files**. A data no nome é o que evita usuário aplicando arquivo velho
-em jogo novo.
+arquivo opcional com o número do update novo no nome e mandar o antigo para
+**Old files**. O update no nome é o que evita usuário aplicando arquivo
+velho em jogo novo.
+
+Para saber o build público atual sem abrir a Steam:
+<https://api.steamcmd.net/v1/info/3199650> (em `branches.public.buildid`).
+O nome do update correspondente sai dos anúncios da página da Steam — o
+build muda no mesmo dia do anúncio.
